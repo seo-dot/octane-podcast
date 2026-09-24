@@ -1,6 +1,7 @@
 {
   "processed_urls": [
-    "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/"
+    "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/",
+    "https://octane.rent/sports-cars-sharjah/lamborghini-urus/"
   ],
   "episodes": [
     {
@@ -23,6 +24,27 @@
       "pub_date": "Thu, 24 Sep 2026 14:42:39 +0000",
       "duration_sec": 92,
       "bytes": 1480814
+    },
+    {
+      "file": "2026-09-24-rent-lamborghini-urus-in-sharjah.mp3",
+      "video": "2026-09-24-rent-lamborghini-urus-in-sharjah.mp4",
+      "srt": "2026-09-24-rent-lamborghini-urus-in-sharjah.srt",
+      "title": "Rent Lamborghini Urus in Sharjah — Special occasion",
+      "description": "Octane Drive Stories: a guest's experience with the Rent Lamborghini Urus in Sharjah, plus expert rental tips from Daria. Rental from 2 590 AED. Book this car in Dubai, Abu Dhabi, Sharjah or Miami: https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
+      "youtube_title": "Отзыв об аренде Lamborghini Urus у Octane Rent",
+      "youtube_url": "https://youtu.be/k5EzXO1Fyxw",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "german-couple",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Urus.jpg",
+      "pub_date": "Thu, 24 Sep 2026 15:08:40 +0000",
+      "duration_sec": 80,
+      "bytes": 1289582
     }
   ]
 }
