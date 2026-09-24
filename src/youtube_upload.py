@@ -59,7 +59,8 @@ def upload(video_path, title, description, tags=None, srt_path=None):
     video_id = response["id"]
     print(f"[youtube] видео загружено: {video_id}")
 
-    # Отдельная дорожка субтитров (лучше для SEO и доступности)
+    # Отдельная дорожка субтитров (лучше для SEO и доступности).
+    # Видео не должно падать из-за субтитров — все ошибки логируем и продолжаем.
     if srt_path and config.YOUTUBE_UPLOAD_CAPTIONS:
         try:
             _upload_caption(yt, video_id, srt_path)
@@ -69,10 +70,40 @@ def upload(video_path, title, description, tags=None, srt_path=None):
     return {"video_id": video_id, "url": f"https://youtu.be/{video_id}"}
 
 
-def _upload_caption(yt, video_id, srt_path):
+def _upload_caption(yt, video_id, srt_path, retries=3, delay=45):
+    """Грузит SRT как отдельную дорожку субтитров (language='en', name='English').
+
+    captions().insert иногда отдаёт 403, пока видео ещё обрабатывается — поэтому
+    делаем несколько попыток с паузой и логируем ПОЛНЫЙ текст ошибки.
+    """
+    import time
     from googleapiclient.http import MediaFileUpload
-    body = {"snippet": {"videoId": video_id, "language": config.PODCAST_LANGUAGE,
-                        "name": "English", "isDraft": False}}
-    media = MediaFileUpload(srt_path, mimetype="application/octet-stream", resumable=False)
-    yt.captions().insert(part="snippet", body=body, media_body=media).execute()
-    print("[youtube] дорожка субтитров загружена")
+    from googleapiclient.errors import HttpError
+
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            body = {"snippet": {"videoId": video_id, "language": "en",
+                                "name": "English", "isDraft": False}}
+            media = MediaFileUpload(srt_path, mimetype="application/octet-stream",
+                                    resumable=False)
+            yt.captions().insert(part="snippet", body=body, media_body=media).execute()
+            print("[youtube] дорожка субтитров загружена (en / English)")
+            return True
+        except HttpError as e:
+            content = getattr(e, "content", b"")
+            if isinstance(content, (bytes, bytearray)):
+                content = content.decode("utf-8", "replace")
+            status = getattr(getattr(e, "resp", None), "status", "?")
+            last_err = f"HTTP {status}: {content}"
+            print(f"[youtube] captions.insert попытка {attempt}/{retries}: {last_err}")
+        except Exception as e:
+            last_err = repr(e)
+            print(f"[youtube] captions.insert попытка {attempt}/{retries}: {last_err}")
+        if attempt < retries:
+            print(f"[youtube] жду {delay}с (видео может ещё обрабатываться)...")
+            time.sleep(delay)
+
+    print(f"[youtube] субтитры-дорожка НЕ загружена после {retries} попыток. "
+          f"Точная причина: {last_err}")
+    return False

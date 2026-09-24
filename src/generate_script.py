@@ -24,11 +24,19 @@ def _city_of(car):
     return "the UAE"
 
 
-def _clean_car_name(title):
-    """'Rent Mercedes G63 in Sharjah' -> 'Mercedes G63'."""
-    name = re.sub(r"^\s*Rent\s+", "", title or "", flags=re.IGNORECASE)
+def clean_car_name(title):
+    """Чистое имя машины: 'Rent Mercedes G63 in Sharjah' -> 'Mercedes G63',
+    'Mercedes G63 for rent in Dubai' -> 'Mercedes G63'."""
+    name = title or ""
+    name = re.sub(r"^\s*Rent\s+", "", name, flags=re.IGNORECASE)          # ведущее 'Rent '
+    name = re.sub(r"\s+for\s+rent\b.*$", "", name, flags=re.IGNORECASE)   # хвост 'for rent ...'
     name = re.sub(r"\s+in\s+(Dubai|Abu Dhabi|Sharjah|Miami)\s*$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s*\|\s*Octane.*$", "", name, flags=re.IGNORECASE)    # хвост '| Octane...'
     return name.strip() or (title or "this car")
+
+
+# обратная совместимость
+_clean_car_name = clean_car_name
 
 
 def _build_user_prompt(car, facts):
@@ -128,14 +136,14 @@ def _gen_fallback(car, plan):
         ("B", f"That's the {name}. Book it in Dubai, Abu Dhabi, Sharjah or Miami at octane dot rent."),
         ("A", "See you on the next drive."),
     ]
-    clean_name = _clean_car_name(name)
-    city = _city_of(car)
+    clean_name = clean_car_name(name)
+    car_url = car.get("url", "https://octane.rent")
     return {
-        "youtube_title": f"Renting the {clean_name} in {city} — My Octane Rent Experience",
+        "youtube_title": f"Отзыв об аренде {clean_name} у Octane Rent"[:100],
         "episode_title": f"{name} — {plan['story']['name']}",
         "episode_description": (
             f"Octane Drive Stories: a guest's experience with the {name}, plus expert rental tips "
-            f"from Daria. Rental from {price}. Book in Dubai, Abu Dhabi, Sharjah or Miami at https://octane.rent"
+            f"from Daria. Rental from {price}. Book this car in Dubai, Abu Dhabi, Sharjah or Miami: {car_url}"
         ),
         "lines": [{"speaker": s, "text": t} for s, t in lines],
     }

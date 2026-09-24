@@ -57,9 +57,9 @@ Honesty rules (strict):
 
 Return STRICT JSON only (no markdown fences), shape:
 {{
-  "youtube_title": "rental REVIEW / EXPERIENCE style, <=90 chars, SEO-friendly. It MUST include BOTH the car name AND the city. Templates to follow: 'Renting the {{Car}} in {{City}} — My Octane Rent Experience' or '{{Car}} Rental Review: What It's Really Like | Octane Rent'. This is the show's experience format — do NOT present it as a verified review by a specific real named customer.",
+  "youtube_title": "RUSSIAN rental-review headline, <=100 chars, EXACTLY in this format: 'Отзыв об аренде {{CleanCarName}} у Octane Rent', where {{CleanCarName}} is the clean car name from the input 'Car (clean name)' field (e.g. 'Mercedes G63') — no 'Rent' prefix, no city. This is the show's experience format — do NOT present it as a verified review by a specific real named customer.",
   "episode_title": "short episode title with the car name",
-  "episode_description": "2-3 sentences, SEO-friendly, ends with a booking nudge and https://octane.rent",
+  "episode_description": "2-3 sentences, SEO-friendly. It MUST END with the exact car page URL from the input 'Car page' field (the specific car's page, NOT the octane.rent homepage).",
   "lines": [{{"speaker": "A|B|G|E", "text": "..."}}]
 }}
 Speakers: A={HOST_A}, B={HOST_B}, G=guest, E={EXPERT} (expert). Alternate naturally; 1-3 sentences per line."""

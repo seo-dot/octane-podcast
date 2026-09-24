@@ -48,12 +48,9 @@ def _esc_drawtext(text):
 
 
 def _bg_filter():
-    """Заполнить кадр фото машины (crop-to-fill) + лёгкое затемнение снизу под субтитры."""
-    return (
-        f"scale={W}:{H}:force_original_aspect_ratio=increase,"
-        f"crop={W}:{H},"
-        f"drawbox=x=0:y={H-260}:w={W}:h=260:color=black@0.45:t=fill"
-    )
+    """Заполнить кадр фото машины (crop-to-fill). Без затемняющей плашки —
+    субтитры в картинку больше НЕ вшиваем (они идут отдельной дорожкой YouTube)."""
+    return f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
 
 
 def _build_intro(image, title_text, intro_path, seconds=3):
@@ -96,16 +93,12 @@ def _build_intro(image, title_text, intro_path, seconds=3):
     return intro_path
 
 
-def _build_main(image, audio, srt, main_path):
-    """Основная часть: фото + аудио + вшитые субтитры + нижняя плашка бренда."""
+def _build_main(image, audio, main_path):
+    """Основная часть: фото машины на весь кадр + аудио. Субтитры НЕ вшиваются;
+    остаётся только маленькая подпись-логотип 'octane.rent' в углу."""
     font = _font_path()
     vf = _bg_filter()
-    if srt and os.path.exists(srt):
-        style = ("FontName=Poppins,Fontsize=22,PrimaryColour=&H00FFFFFF,"
-                 "Outline=2,Shadow=0,Alignment=2,MarginV=60")
-        srt_esc = srt.replace("\\", "/").replace(":", r"\:").replace("'", r"\'")
-        vf += f",subtitles='{srt_esc}':force_style='{style}'"
-    # нижняя плашка: octane.rent
+    # маленькая подпись-логотип в левом нижнем углу
     brand = "octane.rent"
     vf += (
         f",drawtext=text='{brand}':fontcolor=white:fontsize=34:x=60:y={H-70}:alpha=0.9"
@@ -131,8 +124,8 @@ def _concat(intro_path, main_path, out_path):
     return out_path
 
 
-def build_video(image_path, audio_path, srt_path, title_text, out_path, tmp_dir=None):
-    """Собирает финальное видео. Возвращает {path, duration_sec}."""
+def build_video(image_path, audio_path, title_text, out_path, tmp_dir=None):
+    """Собирает финальное видео (без вшитых субтитров). Возвращает {path, duration_sec}."""
     if not shutil.which("ffmpeg"):
         raise RuntimeError("ffmpeg не найден в системе")
     tmp_dir = tmp_dir or os.path.dirname(out_path)
@@ -146,7 +139,7 @@ def build_video(image_path, audio_path, srt_path, title_text, out_path, tmp_dir=
     intro = os.path.join(tmp_dir, "_intro.mp4")
     main = os.path.join(tmp_dir, "_main.mp4")
     _build_intro(image_path, title_text, intro, seconds=config.INTRO_SECONDS)
-    _build_main(image_path, audio_path, srt_path, main)
+    _build_main(image_path, audio_path, main)
     _concat(intro, main, out_path)
 
     for f in (intro, main):

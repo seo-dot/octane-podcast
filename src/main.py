@@ -45,7 +45,9 @@ def run_once(state):
     srt_path = str(config.EPISODES_DIR / f"{base}.srt")
     subtitles.build_srt(meta["segments"], srt_path)
 
-    # 3) Видео (заставка + фото + вшитые субтитры)
+    # 3) Видео (заставка + фото машины на весь кадр; субтитры НЕ вшиваем —
+    #    они идут отдельной дорожкой YouTube из SRT)
+    clean_name = generate_script.clean_car_name(car["title"])
     video_path = None
     if config.VIDEO_ENABLED:
         try:
@@ -53,12 +55,20 @@ def run_once(state):
                 car.get("image", ""), str(config.TMP_DIR / f"{base}.jpg"))
             video_path = str(config.VIDEOS_DIR / f"{base}.mp4")
             vinfo = build_video.build_video(
-                image_path=img_path, audio_path=audio_path, srt_path=srt_path,
-                title_text=car["title"], out_path=video_path, tmp_dir=str(config.TMP_DIR))
+                image_path=img_path, audio_path=audio_path,
+                title_text=clean_name, out_path=video_path, tmp_dir=str(config.TMP_DIR))
             print(f"[main] видео: {vinfo['duration_sec']}с -> {base}.mp4")
         except Exception as e:
             print(f"[main] сборка видео не удалась ({e}) — продолжаю без видео")
             video_path = None
+
+    # Гарантируем ссылку на КОНКРЕТНОЕ авто в конце описания (подстраховка на случай,
+    # если LLM подставил главную octane.rent или забыл ссылку).
+    description = script.get("episode_description", car.get("description", "")) or ""
+    if url not in description:
+        description = re.sub(r"https?://octane\.rent/?\S*\s*$", "", description).rstrip()
+        description = f"{description}\n\nBook this exact car: {url}".strip()
+    script["episode_description"] = description
 
     # 4) Загрузка на YouTube
     youtube = None
@@ -70,7 +80,7 @@ def run_once(state):
             youtube = youtube_upload.upload(
                 video_path,
                 title=script.get("youtube_title", car["title"]),
-                description=script.get("episode_description", ""),
+                description=description,
                 tags=tags, srt_path=srt_path)
             print(f"[main] YouTube: {youtube['url']}")
         except Exception as e:
