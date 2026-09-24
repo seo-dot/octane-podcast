@@ -1,7 +1,8 @@
 {
   "processed_urls": [
     "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/",
-    "https://octane.rent/sports-cars-sharjah/lamborghini-urus/"
+    "https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
+    "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/"
   ],
   "episodes": [
     {
@@ -45,6 +46,27 @@
       "pub_date": "Thu, 24 Sep 2026 15:08:40 +0000",
       "duration_sec": 80,
       "bytes": 1289582
+    },
+    {
+      "file": "2026-09-24-rent-lamborghini-huracan-in-sharjah.mp3",
+      "video": "2026-09-24-rent-lamborghini-huracan-in-sharjah.mp4",
+      "srt": "2026-09-24-rent-lamborghini-huracan-in-sharjah.srt",
+      "title": "Lamborghini Huracan Business Trip in Sharjah",
+      "description": "Octane Drive Stories: a guest's experience with the Lamborghini Huracan in Sharjah: https://octane.rent/sports-cars-sharjah/lamborghini-huracan/",
+      "youtube_title": "Review of Lamborghini Huracan rental in Sharjah with Octane Rent",
+      "youtube_url": "https://youtu.be/MMBcsDdPbEM",
+      "plan": {
+        "story": "business-flex",
+        "guest": "indian-family",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Huracan.jpg",
+      "pub_date": "Thu, 24 Sep 2026 15:38:34 +0000",
+      "duration_sec": 428,
+      "bytes": 6851822
     }
   ]
 }
