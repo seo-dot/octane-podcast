@@ -15,13 +15,18 @@ from . import config, angles, knowledge
 _CITIES = {"dubai": "Dubai", "abu-dhabi": "Abu Dhabi", "sharjah": "Sharjah", "miami": "Miami"}
 
 
-def _city_of(car):
-    """Город из URL (напр. .../suv-cars-sharjah/...) или из названия ('... in Dubai')."""
+def _city_or_none(car):
+    """Город из URL/названия или None, если не распознан."""
     hay = f"{car.get('url', '')} {car.get('title', '')}".lower()
     for key, nice in _CITIES.items():
         if key in hay or key.replace("-", " ") in hay:
             return nice
-    return "the UAE"
+    return None
+
+
+def _city_of(car):
+    """Как _city_or_none, но с дефолтом 'the UAE' (для текста промпта)."""
+    return _city_or_none(car) or "the UAE"
 
 
 def clean_car_name(title):
@@ -37,6 +42,27 @@ def clean_car_name(title):
 
 # обратная совместимость
 _clean_car_name = clean_car_name
+
+
+def review_title(car):
+    """Детерминированный заголовок-отзыв (<=100 симв.):
+    'Review of {CleanName} rental in {City} with Octane Rent'
+    (без города — 'Review of {CleanName} rental with Octane Rent')."""
+    clean = clean_car_name(car.get("title", ""))
+    city = _city_or_none(car)
+    if city:
+        t = f"Review of {clean} rental in {city} with Octane Rent"
+    else:
+        t = f"Review of {clean} rental with Octane Rent"
+    return t[:100]
+
+
+def episode_description(car):
+    """Детерминированное короткое описание, заканчивающееся ПОЛНОЙ ссылкой на авто."""
+    clean = clean_car_name(car.get("title", ""))
+    city = _city_of(car)
+    car_url = car.get("url", "https://octane.rent")
+    return f"Octane Drive Stories: a guest's experience with the {clean} in {city}: {car_url}"
 
 
 def _build_user_prompt(car, facts):
@@ -83,6 +109,25 @@ def _gen_openai_compatible(system, user, api_key, base_url, model):
         kwargs.pop("response_format", None)
         resp = client.chat.completions.create(**kwargs)
     return _extract_json(resp.choices[0].message.content)
+
+
+def _gen_openrouter(system, user):
+    """OpenRouter: пробуем основную модель, при ошибке (429/недоступна) — запасные по очереди.
+    Возвращает (data, model). Если все модели не ответили — бросает последнее исключение."""
+    models = [config.OPENROUTER_MODEL] + list(config.OPENROUTER_FALLBACK_MODELS)
+    last_err = None
+    for model in models:
+        if not model:
+            continue
+        try:
+            data = _gen_openai_compatible(system, user, config.OPENROUTER_API_KEY,
+                                          config.OPENROUTER_BASE_URL, model)
+            print(f"[script] OpenRouter: сценарий сгенерён моделью {model}")
+            return data, model
+        except Exception as e:
+            last_err = e
+            print(f"[script] модель {model} не ответила ({e}); пробую следующую…")
+    raise last_err if last_err else RuntimeError("нет доступных моделей OpenRouter")
 
 
 def _gen_anthropic(system, user):
@@ -136,15 +181,10 @@ def _gen_fallback(car, plan):
         ("B", f"That's the {name}. Book it in Dubai, Abu Dhabi, Sharjah or Miami at octane dot rent."),
         ("A", "See you on the next drive."),
     ]
-    clean_name = clean_car_name(name)
-    car_url = car.get("url", "https://octane.rent")
     return {
-        "youtube_title": f"Отзыв об аренде {clean_name} у Octane Rent"[:100],
+        "youtube_title": review_title(car),
         "episode_title": f"{name} — {plan['story']['name']}",
-        "episode_description": (
-            f"Octane Drive Stories: a guest's experience with the {name}, plus expert rental tips "
-            f"from Daria. Rental from {price}. Book this car in Dubai, Abu Dhabi, Sharjah or Miami: {car_url}"
-        ),
+        "episode_description": episode_description(car),
         "lines": [{"speaker": s, "text": t} for s, t in lines],
     }
 
@@ -159,8 +199,7 @@ def generate(car, episode_index=0):
 
     try:
         if provider == "openrouter" and config.OPENROUTER_API_KEY:
-            data = _gen_openai_compatible(system, user, config.OPENROUTER_API_KEY,
-                                          config.OPENROUTER_BASE_URL, config.OPENROUTER_MODEL)
+            data, _ = _gen_openrouter(system, user)
         elif provider == "groq" and config.GROQ_API_KEY:
             data = _gen_openai_compatible(system, user, config.GROQ_API_KEY,
                                           config.GROQ_BASE_URL, config.GROQ_MODEL)
@@ -185,9 +224,11 @@ def generate(car, episode_index=0):
         ln["speaker"] = sp if sp in VALID_SPEAKERS else "A"
         ln["text"] = str(ln.get("text", "")).strip()
     data["lines"] = [ln for ln in data["lines"] if ln["text"]]
-    data.setdefault("youtube_title", car["title"])
+    # Заголовок и описание строим ДЕТЕРМИНИРОВАННО в коде (не полагаемся на LLM),
+    # чтобы гарантировать строгий формат и полную ссылку на страницу авто.
+    data["youtube_title"] = review_title(car)
+    data["episode_description"] = episode_description(car)
     data.setdefault("episode_title", car["title"])
-    data.setdefault("episode_description", car.get("description", ""))
     data["angle"] = plan["story"]["key"]
     data["plan"] = {
         "story": plan["story"]["key"], "guest": plan["guest"]["key"],

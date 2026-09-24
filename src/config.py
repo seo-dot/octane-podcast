@@ -30,8 +30,15 @@ GROQ_API_KEY = _get("GROQ_API_KEY")
 GROQ_MODEL = _get("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_BASE_URL = _get("GROQ_BASE_URL", "https://api.groq.com/openai/v1")
 OPENROUTER_API_KEY = _get("OPENROUTER_API_KEY")
-OPENROUTER_MODEL = _get("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
+OPENROUTER_MODEL = _get("OPENROUTER_MODEL", "google/gemma-4-31b-it:free")
 OPENROUTER_BASE_URL = _get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+# Запасные бесплатные модели (через запятую): пробуем по очереди при 429/ошибке основной.
+OPENROUTER_FALLBACK_MODELS = [
+    m.strip() for m in _get(
+        "OPENROUTER_FALLBACK_MODELS",
+        "nvidia/nemotron-3-super-120b-a12b:free,z-ai/glm-5.2:free",
+    ).split(",") if m.strip()
+]
 GEMINI_API_KEY = _get("GEMINI_API_KEY")
 OPENAI_API_KEY = _get("OPENAI_API_KEY")
 ANTHROPIC_API_KEY = _get("ANTHROPIC_API_KEY")

@@ -62,12 +62,9 @@ def run_once(state):
             print(f"[main] сборка видео не удалась ({e}) — продолжаю без видео")
             video_path = None
 
-    # Гарантируем ссылку на КОНКРЕТНОЕ авто в конце описания (подстраховка на случай,
-    # если LLM подставил главную octane.rent или забыл ссылку).
-    description = script.get("episode_description", car.get("description", "")) or ""
-    if url not in description:
-        description = re.sub(r"https?://octane\.rent/?\S*\s*$", "", description).rstrip()
-        description = f"{description}\n\nBook this exact car: {url}".strip()
+    # Описание строим детерминированно (короткое, заканчивается ПОЛНОЙ ссылкой на авто).
+    # Подстраховка на случай, если сценарий пришёл из другого пути.
+    description = generate_script.episode_description(car)
     script["episode_description"] = description
 
     # 4) Загрузка на YouTube

@@ -28,7 +28,7 @@ SHOW_NAME = "Octane Drive Stories"
 # --- Базовые правила шоу (в каждом выпуске) ---
 BASE_RULES = f"""You write ONE episode of the audio podcast "{SHOW_NAME}" by Octane Rent
 (octane.rent) — a luxury & exotic car rental company in Dubai, Abu Dhabi, Sharjah and Miami.
-Audio only. English. 550-800 words.
+Audio only. English. Aim for 1000-1400 words — a full, immersive episode, not a teaser.
 
 Recurring cast:
 - {HOST_A}: male host, warm and energetic, keeps the show moving.
@@ -39,12 +39,23 @@ Recurring cast:
 
 Episode flow (keep this order, keep it natural, not robotic):
 1) Cold open + hosts introduce today's car and welcome the guest.
-2) GUEST STORY: the guest shares their experience with THIS car — where they drove, what
-   they saw, how it felt, and how Octane's service/handover/delivery went. Positive and vivid.
+2) GUEST STORY (the heart of the episode — make it the LONGEST part, 500+ words):
+   the guest talks in DETAIL, like a real person on a podcast, not an ad. Cover, concretely:
+   - the exact route/places in the UAE (e.g. Sheikh Zayed Road, Palm Jumeirah, Jumeirah
+     beach road, Hatta, Al Qudra desert road, Dubai Marina, Yas Island) — where they went and why;
+   - how the car FEELS to drive: the sound of the engine, the pull under acceleration, the
+     ride comfort, the cabin, the looks it got, one or two vivid moments;
+   - how Octane's service went end to end: booking, the delivery to hotel/airport, the
+     handover, cleanliness, the staff, returning the car — real, specific, warm details;
+   - genuine emotion — what the day meant to them.
+   The hosts react, ask follow-up questions, and keep it a real back-and-forth conversation.
 3) EXPERT SEGMENT with {EXPERT}: she answers the episode's rental question using ONLY the FACTS.
 4) SEGMENT: the short recurring rubric given in the input.
 5) (If GIVEAWAY is enabled) the giveaway announcement with its real mechanics.
 6) Warm outro + one booking nudge to octane.rent (Dubai, Abu Dhabi, Sharjah, Miami).
+
+Style: lots of narration and concrete specifics, sensory detail and named places; few generic
+phrases. It should sound like a lived experience, but stay honest (see rules below).
 
 Honesty rules (strict):
 - The guest is an ILLUSTRATIVE brand character, not presented as a verified named customer
@@ -57,9 +68,9 @@ Honesty rules (strict):
 
 Return STRICT JSON only (no markdown fences), shape:
 {{
-  "youtube_title": "RUSSIAN rental-review headline, <=100 chars, EXACTLY in this format: 'Отзыв об аренде {{CleanCarName}} у Octane Rent', where {{CleanCarName}} is the clean car name from the input 'Car (clean name)' field (e.g. 'Mercedes G63') — no 'Rent' prefix, no city. This is the show's experience format — do NOT present it as a verified review by a specific real named customer.",
+  "youtube_title": "ENGLISH review-style headline, <=100 chars, EXACTLY in this format: 'Review of {{CleanCarName}} rental in {{City}} with Octane Rent' (if the city is unknown: 'Review of {{CleanCarName}} rental with Octane Rent'). {{CleanCarName}} = the input 'Car (clean name)' field, {{City}} = the input 'City' field. Show's experience format — do NOT present it as a verified review by a specific real named customer.",
   "episode_title": "short episode title with the car name",
-  "episode_description": "2-3 sentences, SEO-friendly. It MUST END with the exact car page URL from the input 'Car page' field (the specific car's page, NOT the octane.rent homepage).",
+  "episode_description": "EXACTLY this one line, nothing else: 'Octane Drive Stories: a guest's experience with the {{CleanCarName}} in {{City}}: {{car_url}}' where {{car_url}} is the full 'Car page' URL. No price, no extra sentences — the link must stay visible.",
   "lines": [{{"speaker": "A|B|G|E", "text": "..."}}]
 }}
 Speakers: A={HOST_A}, B={HOST_B}, G=guest, E={EXPERT} (expert). Alternate naturally; 1-3 sentences per line."""
