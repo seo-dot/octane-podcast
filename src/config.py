@@ -6,7 +6,10 @@ load_dotenv()
 
 
 def _get(key, default=""):
-    return os.environ.get(key, default).strip()
+    v = os.environ.get(key)
+    if v is None or v.strip() == "":
+        return default
+    return v.strip()
 
 
 # Публикация
