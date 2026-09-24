@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Octane Drive Stories</title>
+    <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
+    <description>One exotic car a day from Octane Rent.</description>
+    <atom:link href="https://seo-dot.github.io/octane-podcast/feed.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://seo-dot.github.io/octane-podcast/assets/cover.jpg</url>
+      <title>Octane Drive Stories</title>
+      <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Sep 2026 12:05:18 +0000</lastBuildDate>
+    <itunes:author>Octane Rent</itunes:author>
+    <itunes:category text="Leisure"/>
+    <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Octane Rent</itunes:name>
+      <itunes:email>podcast@octane.rent</itunes:email>
+    </itunes:owner>
+    <itunes:summary>One exotic car a day from Octane Rent.</itunes:summary>
+  </channel>
+</rss>
