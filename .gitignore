@@ -7,3 +7,6 @@ tmp/
 videos/
 tmp/
 client_secret.json
+.venv/
+venv/
+knowledge.json

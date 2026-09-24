@@ -57,7 +57,9 @@ def _bg_filter():
 
 
 def _build_intro(image, title_text, intro_path, seconds=3):
-    """Титульная заставка: фото машины (размыто-затемнённое) + название + Octane."""
+    """Титульная заставка: ЧЁТКОЕ фото машины (без размытия) + лёгкое затемнение +
+    тёмная плашка в нижней трети, поверх которой название авто и 'OCTANE RENT'.
+    """
     custom = config.ASSETS_DIR / "intro.mp4"
     if custom.exists():
         shutil.copy(str(custom), intro_path)
@@ -65,17 +67,25 @@ def _build_intro(image, title_text, intro_path, seconds=3):
 
     font = _font_path()
     title = _esc_drawtext(title_text)
+    plate_y = int(H * 2 / 3)          # плашка в нижней трети кадра
+    plate_h = H - plate_y
     draw = (
-        f"drawbox=x=0:y=0:w={W}:h={H}:color=black@0.45:t=fill,"
-        f"drawtext=text='{title}':fontcolor=white:fontsize=90:"
-        f"x=(w-text_w)/2:y=(h-text_h)/2-40:box=0"
+        # лёгкое общее затемнение — фото машины остаётся хорошо видно
+        f"drawbox=x=0:y=0:w={W}:h={H}:color=black@0.28:t=fill,"
+        # тёмная плашка в нижней трети под текст
+        f"drawbox=x=0:y={plate_y}:w={W}:h={plate_h}:color=black@0.55:t=fill,"
+        # название авто — крупно, по центру плашки
+        f"drawtext=text='{title}':fontcolor=white:fontsize=96:"
+        f"x=(w-text_w)/2:y={plate_y}+70:box=0"
         + (f":fontfile='{font}'" if font else "")
         + ","
-        f"drawtext=text='OCTANE RENT':fontcolor=white:fontsize=44:"
-        f"x=(w-text_w)/2:y=(h-text_h)/2+80:alpha=0.9"
+        # бренд под названием
+        f"drawtext=text='OCTANE RENT':fontcolor=white:fontsize=50:"
+        f"x=(w-text_w)/2:y={plate_y}+200:alpha=0.92"
         + (f":fontfile='{font}'" if font else "")
     )
-    vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=12:1,{draw}"
+    # НЕТ boxblur — фон остаётся чётким фото машины (crop-to-fill)
+    vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{draw}"
     _run([
         "ffmpeg", "-y", "-loop", "1", "-i", image,
         "-f", "lavfi", "-i", f"anullsrc=r=44100:cl=stereo",

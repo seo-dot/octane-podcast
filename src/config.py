@@ -50,6 +50,14 @@ TTSMP3_VOICE_B = _get("TTSMP3_VOICE_B", "Joanna")
 TTSMP3_VOICE_G = _get("TTSMP3_VOICE_G", "Brian")
 TTSMP3_VOICE_E = _get("TTSMP3_VOICE_E", "Ruth")
 
+# gTTS (бесплатный тестовый провайдер, без ключа): 4 "голоса" имитируем
+# разными акцентами (tld) + лёгким сдвигом высоты в synthesize.py.
+GTTS_LANG = _get("GTTS_LANG", "en")
+GTTS_TLD_A = _get("GTTS_TLD_A", "us")       # ведущий
+GTTS_TLD_B = _get("GTTS_TLD_B", "co.uk")    # ведущая
+GTTS_TLD_G = _get("GTTS_TLD_G", "com.au")   # гость
+GTTS_TLD_E = _get("GTTS_TLD_E", "ca")       # эксперт
+
 # Видео
 VIDEO_ENABLED = _get("VIDEO_ENABLED", "true").lower() in ("1", "true", "yes")
 INTRO_SECONDS = int(_get("INTRO_SECONDS", "3") or "3")

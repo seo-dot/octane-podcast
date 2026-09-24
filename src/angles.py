@@ -57,7 +57,7 @@ Honesty rules (strict):
 
 Return STRICT JSON only (no markdown fences), shape:
 {{
-  "youtube_title": "catchy, <=90 chars, SEO-friendly, includes the car name",
+  "youtube_title": "rental REVIEW / EXPERIENCE style, <=90 chars, SEO-friendly. It MUST include BOTH the car name AND the city. Templates to follow: 'Renting the {{Car}} in {{City}} — My Octane Rent Experience' or '{{Car}} Rental Review: What It's Really Like | Octane Rent'. This is the show's experience format — do NOT present it as a verified review by a specific real named customer.",
   "episode_title": "short episode title with the car name",
   "episode_description": "2-3 sentences, SEO-friendly, ends with a booking nudge and https://octane.rent",
   "lines": [{{"speaker": "A|B|G|E", "text": "..."}}]

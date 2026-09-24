@@ -12,10 +12,31 @@ import re
 from . import config, angles, knowledge
 
 
+_CITIES = {"dubai": "Dubai", "abu-dhabi": "Abu Dhabi", "sharjah": "Sharjah", "miami": "Miami"}
+
+
+def _city_of(car):
+    """Город из URL (напр. .../suv-cars-sharjah/...) или из названия ('... in Dubai')."""
+    hay = f"{car.get('url', '')} {car.get('title', '')}".lower()
+    for key, nice in _CITIES.items():
+        if key in hay or key.replace("-", " ") in hay:
+            return nice
+    return "the UAE"
+
+
+def _clean_car_name(title):
+    """'Rent Mercedes G63 in Sharjah' -> 'Mercedes G63'."""
+    name = re.sub(r"^\s*Rent\s+", "", title or "", flags=re.IGNORECASE)
+    name = re.sub(r"\s+in\s+(Dubai|Abu Dhabi|Sharjah|Miami)\s*$", "", name, flags=re.IGNORECASE)
+    return name.strip() or (title or "this car")
+
+
 def _build_user_prompt(car, facts):
     return (
         f"Car page: {car['url']}\n"
         f"Name: {car['title']}\n"
+        f"Car (clean name): {_clean_car_name(car['title'])}\n"
+        f"City: {_city_of(car)}\n"
         f"Rental price: {car.get('price') or 'not specified'}\n"
         f"Specs: {car.get('spec_text') or 'not specified'}\n"
         f"Page description: {car.get('description') or ''}\n\n"
@@ -107,8 +128,10 @@ def _gen_fallback(car, plan):
         ("B", f"That's the {name}. Book it in Dubai, Abu Dhabi, Sharjah or Miami at octane dot rent."),
         ("A", "See you on the next drive."),
     ]
+    clean_name = _clean_car_name(name)
+    city = _city_of(car)
     return {
-        "youtube_title": f"{name} — {plan['story']['name']} | Octane Drive Stories",
+        "youtube_title": f"Renting the {clean_name} in {city} — My Octane Rent Experience",
         "episode_title": f"{name} — {plan['story']['name']}",
         "episode_description": (
             f"Octane Drive Stories: a guest's experience with the {name}, plus expert rental tips "
