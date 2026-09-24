@@ -1,4 +1,28 @@
 {
-  "processed_urls": [],
-  "episodes": []
+  "processed_urls": [
+    "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/"
+  ],
+  "episodes": [
+    {
+      "file": "2026-09-24-rent-mercedes-g63-in-sharjah.mp3",
+      "video": "2026-09-24-rent-mercedes-g63-in-sharjah.mp4",
+      "srt": "2026-09-24-rent-mercedes-g63-in-sharjah.srt",
+      "title": "Rent Mercedes G63 in Sharjah — Road trip",
+      "description": "Octane Drive Stories: a guest's experience with the Rent Mercedes G63 in Sharjah, plus expert rental tips from Daria. Rental from 1 550 AED. Book in Dubai, Abu Dhabi, Sharjah or Miami at https://octane.rent",
+      "youtube_title": "Renting the Mercedes G63 in Sharjah — My Octane Rent Experience",
+      "youtube_url": "https://youtu.be/GjNxac8s16M",
+      "plan": {
+        "story": "road-trip",
+        "guest": "uk-solo",
+        "expert_topic": "deposit",
+        "segment": "place-of-week",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/",
+      "image": "https://octane.rent/wp-content/uploads/2023/03/Header-mercedes-g-800-brabus-black.jpg",
+      "pub_date": "Thu, 24 Sep 2026 14:42:39 +0000",
+      "duration_sec": 92,
+      "bytes": 1480814
+    }
+  ]
 }
