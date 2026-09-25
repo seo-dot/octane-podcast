@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import datetime
+from email.utils import parsedate_to_datetime
 from . import (config, state as st, fetch_car, generate_script, synthesize,
                subtitles, build_video, build_feed)
 
@@ -103,6 +104,26 @@ def run_once(state):
     return True
 
 
+def _has_episode_today(state):
+    """Есть ли уже выпуск за сегодняшнюю дату (по префиксу имени файла или pub_date)?"""
+    today = datetime.date.today().isoformat()
+    for ep in state.get("episodes", []):
+        if str(ep.get("file", "")).startswith(today):
+            return True
+        pd = ep.get("pub_date", "")
+        try:
+            if pd and parsedate_to_datetime(pd).date().isoformat() == today:
+                return True
+        except (TypeError, ValueError):
+            pass
+    return False
+
+
+def _force_enabled():
+    """Ручной запуск с force=true (workflow_dispatch) отключает защиту от дублей."""
+    return os.environ.get("FORCE", "").strip().lower() in ("1", "true", "yes")
+
+
 def main():
     # --test: без платных ключей (шаблон + бесплатная озвучка), без загрузки на YouTube
     if "--test" in sys.argv:
@@ -114,6 +135,14 @@ def main():
         print("[main] ТЕСТ-режим: шаблон сценария + бесплатная озвучка, без загрузки")
 
     state = st.load()
+
+    # Защита от дублей: один выпуск в сутки. Второй cron-слот (страховка) при этом
+    # просто выйдет, если утренний уже отработал. FORCE=true (или --force) снимает защиту.
+    force = _force_enabled() or "--force" in sys.argv
+    if _has_episode_today(state) and not force:
+        print("[main] сегодня уже есть выпуск, пропускаю (FORCE=true для повтора).")
+        return 0
+
     made = 0
     for _ in range(max(1, config.CARS_PER_RUN)):
         try:

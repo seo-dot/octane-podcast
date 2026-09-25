@@ -2,9 +2,17 @@ name: Daily podcast episode
 
 on:
   schedule:
-    # 07:00 UTC = 10:00 по Дубаю / 10:00 по Минску. Меняй по желанию.
-    - cron: "0 7 * * *"
-  workflow_dispatch: {}   # ручной запуск кнопкой в GitHub
+    # GitHub может задержать/пропустить слот, поэтому их два. Защита от дублей в main.py
+    # гарантирует не больше одного выпуска в сутки: если утренний уже отработал —
+    # дневной просто выйдет.
+    - cron: "0 7 * * *"    # 10:00 по Минску
+    - cron: "0 11 * * *"   # 14:00 по Минску (страховка)
+  workflow_dispatch:       # ручной запуск кнопкой в GitHub
+    inputs:
+      force:
+        description: "Создать выпуск, даже если сегодня уже был (для тестов)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # чтобы бот мог коммитить эпизоды/feed/state
@@ -46,6 +54,7 @@ jobs:
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           OPENROUTER_FALLBACK_MODELS: ${{ vars.OPENROUTER_FALLBACK_MODELS }}
           CITY_PRIORITY: ${{ vars.CITY_PRIORITY }}
+          FORCE: ${{ github.event.inputs.force }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
