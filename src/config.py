@@ -91,6 +91,17 @@ CITY_PRIORITY = [
     if c.strip()
 ]
 
+# Приоритет марок ВНУТРИ города: премиум-марки идут первыми.
+BRAND_PRIORITY = [
+    b.strip().lower()
+    for b in _get(
+        "BRAND_PRIORITY",
+        "rolls-royce,ferrari,lamborghini,bentley,mclaren,aston-martin,maserati,"
+        "porsche,mercedes,bmw,audi,range-rover,land-rover,cadillac",
+    ).split(",")
+    if b.strip()
+]
+
 # Прочее
 CARS_PER_RUN = int(_get("CARS_PER_RUN", "1") or "1")
 CAR_URL_PATTERN = _get(

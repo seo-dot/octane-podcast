@@ -65,10 +65,20 @@ def _city_rank(url):
     return len(config.CITY_PRIORITY)
 
 
+def _brand_rank(url):
+    """Индекс марки URL в BRAND_PRIORITY; не найденная марка идёт после премиум-марок."""
+    low = url.lower()
+    for i, brand in enumerate(config.BRAND_PRIORITY):
+        if brand in low or brand.replace("-", " ") in low:
+            return i
+    return len(config.BRAND_PRIORITY)
+
+
 def _order_by_city_priority(urls):
-    """Стабильная сортировка по приоритету городов (порядок карты сайта сохраняется
-    внутри каждой группы города)."""
-    return sorted(urls, key=_city_rank)
+    """Стабильная двухуровневая сортировка: сначала город (Дубай первым),
+    затем внутри города — марка (премиум первыми). Внутри одинаковых (город, марка)
+    сохраняется исходный порядок карты сайта (sorted стабилен)."""
+    return sorted(urls, key=lambda u: (_city_rank(u), _brand_rank(u)))
 
 
 def pick_next_url(state):
