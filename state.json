@@ -2,7 +2,8 @@
   "processed_urls": [
     "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/",
     "https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
-    "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/"
+    "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/",
+    "https://octane.rent/geely-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -67,6 +68,27 @@
       "pub_date": "Thu, 24 Sep 2026 15:38:34 +0000",
       "duration_sec": 428,
       "bytes": 6851822
+    },
+    {
+      "file": "2026-09-25-rent-geely-in-dubai.mp3",
+      "video": "2026-09-25-rent-geely-in-dubai.mp4",
+      "srt": "2026-09-25-rent-geely-in-dubai.srt",
+      "title": "Geely Shoot: A Photographer's Dubai Adventure",
+      "description": "Octane Drive Stories: a guest's experience with the Geely in Dubai: https://octane.rent/geely-for-rent-dubai/",
+      "youtube_title": "Review of Geely rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/W1f0mmsZpfo",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "saudi-local",
+        "expert_topic": "delivery",
+        "segment": "car-duel",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/geely-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2024/02/header-geely-tugella-grey.jpg",
+      "pub_date": "Fri, 25 Sep 2026 09:37:52 +0000",
+      "duration_sec": 288,
+      "bytes": 4616942
     }
   ]
 }
