@@ -52,14 +52,31 @@ def collect_car_urls():
                     continue
                 seen.add(u)
                 car_urls.append(u)
-    return car_urls
+    return _order_by_city_priority(car_urls)
+
+
+def _city_rank(url):
+    """Индекс города URL в CITY_PRIORITY; не распознанный город идёт в самый конец."""
+    low = url.lower()
+    for i, city in enumerate(config.CITY_PRIORITY):
+        # учитываем и 'abu-dhabi', и 'abu dhabi'
+        if city in low or city.replace("-", " ") in low:
+            return i
+    return len(config.CITY_PRIORITY)
+
+
+def _order_by_city_priority(urls):
+    """Стабильная сортировка по приоритету городов (порядок карты сайта сохраняется
+    внутри каждой группы города)."""
+    return sorted(urls, key=_city_rank)
 
 
 def pick_next_url(state):
-    """Возвращает следующий необработанный URL авто, либо None."""
+    """Возвращает следующий необработанный URL авто (с учётом приоритета городов), либо None."""
     urls = collect_car_urls()
+    processed = state.get("processed_urls", [])
     for u in urls:
-        if u not in state.get("processed_urls", []):
+        if u not in processed:
             return u
     return None
 

@@ -84,6 +84,13 @@ YOUTUBE_UPLOAD_CAPTIONS = _get("YOUTUBE_UPLOAD_CAPTIONS", "true").lower() in ("1
 # RSS для YouTube Music (можно оставить включённым параллельно с видео)
 RSS_ENABLED = _get("RSS_ENABLED", "true").lower() in ("1", "true", "yes")
 
+# Приоритет городов: в каком порядке брать машины (сначала Дубай, затем остальные).
+CITY_PRIORITY = [
+    c.strip().lower()
+    for c in _get("CITY_PRIORITY", "dubai,abu-dhabi,sharjah,miami").split(",")
+    if c.strip()
+]
+
 # Прочее
 CARS_PER_RUN = int(_get("CARS_PER_RUN", "1") or "1")
 CAR_URL_PATTERN = _get(
