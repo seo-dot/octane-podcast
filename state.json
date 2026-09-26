@@ -3,7 +3,8 @@
     "https://octane.rent/suv-cars-sharjah/mercedes-g63-amg/",
     "https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
     "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/",
-    "https://octane.rent/geely-for-rent-dubai/"
+    "https://octane.rent/geely-for-rent-dubai/",
+    "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -89,6 +90,27 @@
       "pub_date": "Fri, 25 Sep 2026 09:37:52 +0000",
       "duration_sec": 288,
       "bytes": 4616942
+    },
+    {
+      "file": "2026-09-26-rent-rolls-royce-cullinan-in-dubai.mp3",
+      "video": "2026-09-26-rent-rolls-royce-cullinan-in-dubai.mp4",
+      "srt": "2026-09-26-rent-rolls-royce-cullinan-in-dubai.srt",
+      "title": "First-Time Dubai in a Rolls-Royce Cullinan",
+      "description": "Octane Drive Stories: a guest's experience with the Rolls-Royce Cullinan in Dubai: https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/",
+      "youtube_title": "Review of Rolls-Royce Cullinan rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/FU2QqYNENcY",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "american-creator",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/descktop_cullinan.jpg",
+      "pub_date": "Sat, 26 Sep 2026 12:25:10 +0000",
+      "duration_sec": 292,
+      "bytes": 4687982
     }
   ]
 }
