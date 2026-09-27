@@ -4,7 +4,8 @@
     "https://octane.rent/sports-cars-sharjah/lamborghini-urus/",
     "https://octane.rent/sports-cars-sharjah/lamborghini-huracan/",
     "https://octane.rent/geely-for-rent-dubai/",
-    "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/"
+    "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/",
+    "https://octane.rent/sports-cars/lamborghini-urus-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -111,6 +112,27 @@
       "pub_date": "Sat, 26 Sep 2026 12:25:10 +0000",
       "duration_sec": 292,
       "bytes": 4687982
+    },
+    {
+      "file": "2026-09-27-rent-lamborghini-urus-in-dubai.mp3",
+      "video": "2026-09-27-rent-lamborghini-urus-in-dubai.mp4",
+      "srt": "2026-09-27-rent-lamborghini-urus-in-dubai.srt",
+      "title": "Lamborghini Urus Weekend Escape",
+      "description": "Octane Drive Stories: a guest's experience with the Lamborghini Urus in Dubai: https://octane.rent/sports-cars/lamborghini-urus-for-rent-dubai/",
+      "youtube_title": "Review of Lamborghini Urus rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/9vCjfd5I1FI",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "french-couple",
+        "expert_topic": "fines-salik",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars/lamborghini-urus-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Urus.jpg",
+      "pub_date": "Sun, 27 Sep 2026 13:16:14 +0000",
+      "duration_sec": 271,
+      "bytes": 4348142
     }
   ]
 }
