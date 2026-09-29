@@ -6,7 +6,8 @@
     "https://octane.rent/geely-for-rent-dubai/",
     "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/",
     "https://octane.rent/sports-cars/lamborghini-urus-for-rent-dubai/",
-    "https://octane.rent/sports-cars/lamborghini-huracan-for-rent-dubai/"
+    "https://octane.rent/sports-cars/lamborghini-huracan-for-rent-dubai/",
+    "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/"
   ],
   "episodes": [
     {
@@ -155,6 +156,27 @@
       "pub_date": "Mon, 28 Sep 2026 15:49:34 +0000",
       "duration_sec": 353,
       "bytes": 5661422
+    },
+    {
+      "file": "2026-09-29-rent-porsche-taycan-in-dubai.mp3",
+      "video": "2026-09-29-rent-porsche-taycan-in-dubai.mp4",
+      "srt": "2026-09-29-rent-porsche-taycan-in-dubai.srt",
+      "title": "Chasing Sunrise: Porsche Taycan Adventure in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche Taycan in Dubai: https://octane.rent/sports-cars/rent-porsche-taycan-dubai/",
+      "youtube_title": "Review of Porsche Taycan rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/Up7Q7JPykDM",
+      "plan": {
+        "story": "road-trip",
+        "guest": "nigerian-solo",
+        "expert_topic": "prohibited",
+        "segment": "car-duel",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/descktop_taycan-2-1.jpg",
+      "pub_date": "Tue, 29 Sep 2026 10:38:03 +0000",
+      "duration_sec": 469,
+      "bytes": 7514595
     }
   ]
 }
