@@ -7,7 +7,8 @@
     "https://octane.rent/luxury-cars/rolls-royce-cullinan-for-rent-dubai/",
     "https://octane.rent/sports-cars/lamborghini-urus-for-rent-dubai/",
     "https://octane.rent/sports-cars/lamborghini-huracan-for-rent-dubai/",
-    "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/"
+    "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/",
+    "https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -177,6 +178,27 @@
       "pub_date": "Tue, 29 Sep 2026 10:38:03 +0000",
       "duration_sec": 469,
       "bytes": 7514595
+    },
+    {
+      "file": "2026-09-30-rent-porsche-boxster-in-dubai.mp3",
+      "video": "2026-09-30-rent-porsche-boxster-in-dubai.mp4",
+      "srt": "2026-09-30-rent-porsche-boxster-in-dubai.srt",
+      "title": "Porsche Boxster: A Dubai Anniversary Drive",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche Boxster in Dubai: https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/",
+      "youtube_title": "Review of Porsche Boxster rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/8UiRhOxcr3o",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "chinese-couple",
+        "expert_topic": "deposit",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/Porsche-Boxster-GTS-detail-min.jpg",
+      "pub_date": "Wed, 30 Sep 2026 10:34:34 +0000",
+      "duration_sec": 262,
+      "bytes": 4195683
     }
   ]
 }

@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 10:38:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 10:34:34 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -24,13 +24,21 @@
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
     <item>
+      <title>Porsche Boxster: A Dubai Anniversary Drive</title>
+      <link>https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Porsche Boxster in Dubai: https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-30-rent-porsche-boxster-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-30-rent-porsche-boxster-in-dubai.mp3" length="4195683" type="audio/mpeg"/>
+      <pubDate>Wed, 30 Sep 2026 10:34:34 +0000</pubDate>
+      <itunes:duration>04:22</itunes:duration>
+    </item>
+    <item>
       <title>Chasing Sunrise: Porsche Taycan Adventure in Dubai</title>
       <link>https://octane.rent/sports-cars/rent-porsche-taycan-dubai/</link>
       <description>Octane Drive Stories: a guest's experience with the Porsche Taycan in Dubai: https://octane.rent/sports-cars/rent-porsche-taycan-dubai/</description>
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-29-rent-porsche-taycan-in-dubai.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-29-rent-porsche-taycan-in-dubai.mp3" length="7514595" type="audio/mpeg"/>
       <pubDate>Tue, 29 Sep 2026 10:38:03 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/02/descktop_taycan-2-1.jpg"/>
       <itunes:duration>07:49</itunes:duration>
     </item>
     <item>
@@ -40,7 +48,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-28-rent-lamborghini-huracan-in-dubai.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-28-rent-lamborghini-huracan-in-dubai.mp3" length="5661422" type="audio/mpeg"/>
       <pubDate>Mon, 28 Sep 2026 15:49:34 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/10/Huracan.jpg"/>
       <itunes:duration>05:53</itunes:duration>
     </item>
     <item>
@@ -50,7 +57,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-27-rent-lamborghini-urus-in-dubai.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-27-rent-lamborghini-urus-in-dubai.mp3" length="4348142" type="audio/mpeg"/>
       <pubDate>Sun, 27 Sep 2026 13:16:14 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/10/Urus.jpg"/>
       <itunes:duration>04:31</itunes:duration>
     </item>
     <item>
@@ -60,7 +66,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-26-rent-rolls-royce-cullinan-in-dubai.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-26-rent-rolls-royce-cullinan-in-dubai.mp3" length="4687982" type="audio/mpeg"/>
       <pubDate>Sat, 26 Sep 2026 12:25:10 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/02/descktop_cullinan.jpg"/>
       <itunes:duration>04:52</itunes:duration>
     </item>
     <item>
@@ -70,7 +75,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-25-rent-geely-in-dubai.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-25-rent-geely-in-dubai.mp3" length="4616942" type="audio/mpeg"/>
       <pubDate>Fri, 25 Sep 2026 09:37:52 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2024/02/header-geely-tugella-grey.jpg"/>
       <itunes:duration>04:48</itunes:duration>
     </item>
     <item>
@@ -80,7 +84,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-lamborghini-huracan-in-sharjah.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-lamborghini-huracan-in-sharjah.mp3" length="6851822" type="audio/mpeg"/>
       <pubDate>Thu, 24 Sep 2026 15:38:34 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/10/Huracan.jpg"/>
       <itunes:duration>07:08</itunes:duration>
     </item>
     <item>
@@ -90,7 +93,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-lamborghini-urus-in-sharjah.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-lamborghini-urus-in-sharjah.mp3" length="1289582" type="audio/mpeg"/>
       <pubDate>Thu, 24 Sep 2026 15:08:40 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2022/10/Urus.jpg"/>
       <itunes:duration>01:20</itunes:duration>
     </item>
     <item>
@@ -100,7 +102,6 @@
       <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-mercedes-g63-in-sharjah.mp3</guid>
       <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-09-24-rent-mercedes-g63-in-sharjah.mp3" length="1480814" type="audio/mpeg"/>
       <pubDate>Thu, 24 Sep 2026 14:42:39 +0000</pubDate>
-      <itunes:image href="https://octane.rent/wp-content/uploads/2023/03/Header-mercedes-g-800-brabus-black.jpg"/>
       <itunes:duration>01:32</itunes:duration>
     </item>
   </channel>
