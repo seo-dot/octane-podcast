@@ -44,8 +44,9 @@ def build(state):
         fe.published(ep["pub_date"])
         if ep.get("duration_sec"):
             fe.podcast.itunes_duration(_fmt_duration(ep["duration_sec"]))
-        if ep.get("image"):
-            fe.podcast.itunes_image(ep["image"])
+        # Картинку на уровне эпизода НЕ ставим: горизонтальное фото машины (1920×743)
+        # площадки режут в квадрат. Эпизоды наследуют квадратную обложку канала
+        # (assets/cover.jpg) — без искажений.
 
     fg.rss_file(str(config.FEED_PATH), pretty=True)
     return str(config.FEED_PATH)
