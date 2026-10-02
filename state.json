@@ -9,7 +9,8 @@
     "https://octane.rent/sports-cars/lamborghini-huracan-for-rent-dubai/",
     "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/",
     "https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/",
-    "https://octane.rent/sports-cars/rent-porsche-911-dubai/"
+    "https://octane.rent/sports-cars/rent-porsche-911-dubai/",
+    "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -221,6 +222,27 @@
       "pub_date": "Thu, 01 Oct 2026 14:49:27 +0000",
       "duration_sec": 385,
       "bytes": 6162915
+    },
+    {
+      "file": "2026-10-02-rent-mercedes-gls-in-dubai.mp3",
+      "video": "2026-10-02-rent-mercedes-gls-in-dubai.mp4",
+      "srt": "2026-10-02-rent-mercedes-gls-in-dubai.srt",
+      "title": "Mercedes GLS Dubai Adventure",
+      "description": "Octane Drive Stories: a guest's experience with the Mercedes GLS in Dubai: https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/",
+      "youtube_title": "Review of Mercedes GLS rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/slj-GcyGerk",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "uk-solo",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/04/descktop_gls.jpg",
+      "pub_date": "Fri, 02 Oct 2026 14:07:41 +0000",
+      "duration_sec": 264,
+      "bytes": 4239843
     }
   ]
 }
