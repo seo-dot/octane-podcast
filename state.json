@@ -10,7 +10,8 @@
     "https://octane.rent/sports-cars/rent-porsche-taycan-dubai/",
     "https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/",
     "https://octane.rent/sports-cars/rent-porsche-911-dubai/",
-    "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/"
+    "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/",
+    "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/"
   ],
   "episodes": [
     {
@@ -243,6 +244,27 @@
       "pub_date": "Fri, 02 Oct 2026 14:07:41 +0000",
       "duration_sec": 264,
       "bytes": 4239843
+    },
+    {
+      "file": "2026-10-03-rent-chevrolet-tahoe-in-dubai.mp3",
+      "video": "2026-10-03-rent-chevrolet-tahoe-in-dubai.mp4",
+      "srt": "2026-10-03-rent-chevrolet-tahoe-in-dubai.srt",
+      "title": "First Impressions: Chevrolet Tahoe in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Chevrolet Tahoe in Dubai: https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/",
+      "youtube_title": "Review of Chevrolet Tahoe rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/qzHEJBFSAc4",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "german-couple",
+        "expert_topic": "delivery",
+        "segment": "car-duel",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/01/Tahoe-header1920-870.jpg",
+      "pub_date": "Sat, 03 Oct 2026 12:46:26 +0000",
+      "duration_sec": 304,
+      "bytes": 4868835
     }
   ]
 }
