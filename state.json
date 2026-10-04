@@ -11,7 +11,8 @@
     "https://octane.rent/convertible-cars/porsche-boxster-for-rent-dubai/",
     "https://octane.rent/sports-cars/rent-porsche-911-dubai/",
     "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/",
-    "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/"
+    "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/",
+    "https://octane.rent/convertible-car-rental-dubai/"
   ],
   "episodes": [
     {
@@ -265,6 +266,27 @@
       "pub_date": "Sat, 03 Oct 2026 12:46:26 +0000",
       "duration_sec": 304,
       "bytes": 4868835
+    },
+    {
+      "file": "2026-10-04-rent-convertible-car-in-dubai.mp3",
+      "video": "2026-10-04-rent-convertible-car-in-dubai.mp4",
+      "srt": "2026-10-04-rent-convertible-car-in-dubai.srt",
+      "title": "Weekend Escape in a Convertible Car",
+      "description": "Octane Drive Stories: a guest's experience with the Convertible Car in Dubai: https://octane.rent/convertible-car-rental-dubai/",
+      "youtube_title": "Review of Convertible Car rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/jtqqrHCPJ3E",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "indian-family",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/convertible-car-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Convertible.jpg",
+      "pub_date": "Sun, 04 Oct 2026 13:27:14 +0000",
+      "duration_sec": 355,
+      "bytes": 5684451
     }
   ]
 }
