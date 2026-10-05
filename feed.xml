@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 13:27:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:19:08 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Coupe Dreams: A Day Behind the Wheel in Dubai</title>
+      <link>https://octane.rent/coupe-rental-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the coupe in Dubai: https://octane.rent/coupe-rental-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-05-rent-coupe-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-05-rent-coupe-in-dubai.mp3" length="3546723" type="audio/mpeg"/>
+      <pubDate>Mon, 05 Oct 2026 16:19:08 +0000</pubDate>
+      <itunes:duration>03:41</itunes:duration>
+    </item>
     <item>
       <title>Weekend Escape in a Convertible Car</title>
       <link>https://octane.rent/convertible-car-rental-dubai/</link>
