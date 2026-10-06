@@ -13,7 +13,8 @@
     "https://octane.rent/suv-cars/mercedes-benz-gls-for-rent-dubai/",
     "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/",
     "https://octane.rent/convertible-car-rental-dubai/",
-    "https://octane.rent/coupe-rental-dubai/"
+    "https://octane.rent/coupe-rental-dubai/",
+    "https://octane.rent/luxury-car-rental-dubai/"
   ],
   "episodes": [
     {
@@ -309,6 +310,27 @@
       "pub_date": "Mon, 05 Oct 2026 16:19:08 +0000",
       "duration_sec": 221,
       "bytes": 3546723
+    },
+    {
+      "file": "2026-10-06-luxury-car-rental-dubai.mp3",
+      "video": "2026-10-06-luxury-car-rental-dubai.mp4",
+      "srt": "2026-10-06-luxury-car-rental-dubai.srt",
+      "title": "Luxury Car Rental Dubai: A Dubai Drive",
+      "description": "Octane Drive Stories: a guest's experience with the Luxury Car Rental Dubai in Dubai: https://octane.rent/luxury-car-rental-dubai/",
+      "youtube_title": "Review of Luxury Car Rental Dubai rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/9rVe5aHMko8",
+      "plan": {
+        "story": "road-trip",
+        "guest": "american-creator",
+        "expert_topic": "day-mileage",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/luxury-car-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Luxury.jpg",
+      "pub_date": "Tue, 06 Oct 2026 14:24:32 +0000",
+      "duration_sec": 300,
+      "bytes": 4811235
     }
   ]
 }
