@@ -14,7 +14,8 @@
     "https://octane.rent/suv-cars/chevrolet-tahoe-for-rent-dubai/",
     "https://octane.rent/convertible-car-rental-dubai/",
     "https://octane.rent/coupe-rental-dubai/",
-    "https://octane.rent/luxury-car-rental-dubai/"
+    "https://octane.rent/luxury-car-rental-dubai/",
+    "https://octane.rent/rent-premium-sedan-in-dubai/"
   ],
   "episodes": [
     {
@@ -331,6 +332,27 @@
       "pub_date": "Tue, 06 Oct 2026 14:24:32 +0000",
       "duration_sec": 300,
       "bytes": 4811235
+    },
+    {
+      "file": "2026-10-06-rent-sedan-car-in-dubai.mp3",
+      "video": "2026-10-06-rent-sedan-car-in-dubai.mp4",
+      "srt": "2026-10-06-rent-sedan-car-in-dubai.srt",
+      "title": "Sedan Car Anniversary Adventure",
+      "description": "Octane Drive Stories: a guest's experience with the Sedan Car in Dubai: https://octane.rent/rent-premium-sedan-in-dubai/",
+      "youtube_title": "Review of Sedan Car rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/fjc0UfeOvsc",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "french-couple",
+        "expert_topic": "prohibited",
+        "segment": "car-duel",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-premium-sedan-in-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/02/mercedes-s500-header.jpg",
+      "pub_date": "Tue, 06 Oct 2026 15:48:48 +0000",
+      "duration_sec": 435,
+      "bytes": 6966627
     }
   ]
 }

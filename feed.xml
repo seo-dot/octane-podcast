@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Octane Rent Reviews</title>
+    <title>Car Rental Podcasts</title>
     <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     <description>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</description>
     <atom:link href="https://seo-dot.github.io/octane-podcast/feed.xml" rel="self"/>
@@ -9,11 +9,11 @@
     <generator>python-feedgen</generator>
     <image>
       <url>https://seo-dot.github.io/octane-podcast/assets/cover.jpg</url>
-      <title>Octane Rent Reviews</title>
+      <title>Car Rental Podcasts</title>
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 14:24:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 15:48:48 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Sedan Car Anniversary Adventure</title>
+      <link>https://octane.rent/rent-premium-sedan-in-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Sedan Car in Dubai: https://octane.rent/rent-premium-sedan-in-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-06-rent-sedan-car-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-06-rent-sedan-car-in-dubai.mp3" length="6966627" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Oct 2026 15:48:48 +0000</pubDate>
+      <itunes:duration>07:15</itunes:duration>
+    </item>
     <item>
       <title>Luxury Car Rental Dubai: A Dubai Drive</title>
       <link>https://octane.rent/luxury-car-rental-dubai/</link>
