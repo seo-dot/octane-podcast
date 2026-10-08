@@ -16,7 +16,8 @@
     "https://octane.rent/coupe-rental-dubai/",
     "https://octane.rent/luxury-car-rental-dubai/",
     "https://octane.rent/rent-premium-sedan-in-dubai/",
-    "https://octane.rent/sportscar-rental-dubai/"
+    "https://octane.rent/sportscar-rental-dubai/",
+    "https://octane.rent/suv-car-rental-dubai/"
   ],
   "episodes": [
     {
@@ -375,6 +376,27 @@
       "pub_date": "Wed, 07 Oct 2026 14:47:05 +0000",
       "duration_sec": 443,
       "bytes": 7096035
+    },
+    {
+      "file": "2026-10-08-suv-rental-dubai.mp3",
+      "video": "2026-10-08-suv-rental-dubai.mp4",
+      "srt": "2026-10-08-suv-rental-dubai.srt",
+      "title": "SUV Rental Dubai: A Photographer's Dubai Adventure",
+      "description": "Octane Drive Stories: a guest's experience with the SUV Rental Dubai in Dubai: https://octane.rent/suv-car-rental-dubai/",
+      "youtube_title": "Review of SUV Rental Dubai rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/MZJ9fZSqOXE",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "nigerian-solo",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/suv-car-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/SUV.jpg",
+      "pub_date": "Thu, 08 Oct 2026 14:55:20 +0000",
+      "duration_sec": 368,
+      "bytes": 5894115
     }
   ]
 }

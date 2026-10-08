@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 14:47:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 14:55:20 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>SUV Rental Dubai: A Photographer's Dubai Adventure</title>
+      <link>https://octane.rent/suv-car-rental-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the SUV Rental Dubai in Dubai: https://octane.rent/suv-car-rental-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-08-suv-rental-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-08-suv-rental-dubai.mp3" length="5894115" type="audio/mpeg"/>
+      <pubDate>Thu, 08 Oct 2026 14:55:20 +0000</pubDate>
+      <itunes:duration>06:08</itunes:duration>
+    </item>
     <item>
       <title>Sports Car Stories: Dubai Drive</title>
       <link>https://octane.rent/sportscar-rental-dubai/</link>
