@@ -17,7 +17,8 @@
     "https://octane.rent/luxury-car-rental-dubai/",
     "https://octane.rent/rent-premium-sedan-in-dubai/",
     "https://octane.rent/sportscar-rental-dubai/",
-    "https://octane.rent/suv-car-rental-dubai/"
+    "https://octane.rent/suv-car-rental-dubai/",
+    "https://octane.rent/van-car-rental-dubai/"
   ],
   "episodes": [
     {
@@ -397,6 +398,27 @@
       "pub_date": "Thu, 08 Oct 2026 14:55:20 +0000",
       "duration_sec": 368,
       "bytes": 5894115
+    },
+    {
+      "file": "2026-10-09-rent-van-in-dubai.mp3",
+      "video": "2026-10-09-rent-van-in-dubai.mp4",
+      "srt": "2026-10-09-rent-van-in-dubai.srt",
+      "title": "VAN Adventures: First-Time Dubai Explorer",
+      "description": "Octane Drive Stories: a guest's experience with the VAN in Dubai: https://octane.rent/van-car-rental-dubai/",
+      "youtube_title": "Review of VAN rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/_eGjYOz26-M",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "chinese-couple",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/van-car-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/05/header-hyundai-staria.jpg",
+      "pub_date": "Fri, 09 Oct 2026 14:33:57 +0000",
+      "duration_sec": 304,
+      "bytes": 4876131
     }
   ]
 }
