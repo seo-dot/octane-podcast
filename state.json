@@ -18,7 +18,8 @@
     "https://octane.rent/rent-premium-sedan-in-dubai/",
     "https://octane.rent/sportscar-rental-dubai/",
     "https://octane.rent/suv-car-rental-dubai/",
-    "https://octane.rent/van-car-rental-dubai/"
+    "https://octane.rent/van-car-rental-dubai/",
+    "https://octane.rent/economy-car-rental-dubai/"
   ],
   "episodes": [
     {
@@ -419,6 +420,27 @@
       "pub_date": "Fri, 09 Oct 2026 14:33:57 +0000",
       "duration_sec": 304,
       "bytes": 4876131
+    },
+    {
+      "file": "2026-10-10-economy-car-rental-in-dubai.mp3",
+      "video": "2026-10-10-economy-car-rental-in-dubai.mp4",
+      "srt": "2026-10-10-economy-car-rental-in-dubai.srt",
+      "title": "Economy Car rental in Dubai — Weekend escape",
+      "description": "Octane Drive Stories: a guest's experience with the Economy Car rental in Dubai: https://octane.rent/economy-car-rental-dubai/",
+      "youtube_title": "Review of Economy Car rental rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/qyFbgJzwwYA",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "emirati-local",
+        "expert_topic": "delivery",
+        "segment": "car-duel",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/economy-car-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/09/header-chevrolet-captiva-grey-1.jpg",
+      "pub_date": "Sat, 10 Oct 2026 13:55:29 +0000",
+      "duration_sec": 79,
+      "bytes": 1275747
     }
   ]
 }
