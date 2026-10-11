@@ -19,7 +19,8 @@
     "https://octane.rent/sportscar-rental-dubai/",
     "https://octane.rent/suv-car-rental-dubai/",
     "https://octane.rent/van-car-rental-dubai/",
-    "https://octane.rent/economy-car-rental-dubai/"
+    "https://octane.rent/economy-car-rental-dubai/",
+    "https://octane.rent/luxury-cars-abu-dhabi/rolls-royce-cullinan/"
   ],
   "episodes": [
     {
@@ -441,6 +442,27 @@
       "pub_date": "Sat, 10 Oct 2026 13:55:29 +0000",
       "duration_sec": 79,
       "bytes": 1275747
+    },
+    {
+      "file": "2026-10-11-rent-rolls-royce-cullinan-in-abu-dhabi.mp3",
+      "video": "2026-10-11-rent-rolls-royce-cullinan-in-abu-dhabi.mp4",
+      "srt": "2026-10-11-rent-rolls-royce-cullinan-in-abu-dhabi.srt",
+      "title": "Dream Drive: Rolls-Royce Cullinan in Abu Dhabi",
+      "description": "Octane Drive Stories: a guest's experience with the Rolls-Royce Cullinan in Abu Dhabi: https://octane.rent/luxury-cars-abu-dhabi/rolls-royce-cullinan/",
+      "youtube_title": "Review of Rolls-Royce Cullinan rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/3k4KFk5QebM",
+      "plan": {
+        "story": "dream-car-day",
+        "guest": "uk-solo",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/luxury-cars-abu-dhabi/rolls-royce-cullinan/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/descktop_cullinan.jpg",
+      "pub_date": "Sun, 11 Oct 2026 14:22:17 +0000",
+      "duration_sec": 322,
+      "bytes": 5161443
     }
   ]
 }
