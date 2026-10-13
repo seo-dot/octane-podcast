@@ -21,7 +21,8 @@
     "https://octane.rent/van-car-rental-dubai/",
     "https://octane.rent/economy-car-rental-dubai/",
     "https://octane.rent/luxury-cars-abu-dhabi/rolls-royce-cullinan/",
-    "https://octane.rent/sports-cars-abu-dhabi/ferrari-f8-tributo/"
+    "https://octane.rent/sports-cars-abu-dhabi/ferrari-f8-tributo/",
+    "https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/"
   ],
   "episodes": [
     {
@@ -485,6 +486,27 @@
       "pub_date": "Mon, 12 Oct 2026 16:58:06 +0000",
       "duration_sec": 332,
       "bytes": 5315043
+    },
+    {
+      "file": "2026-10-13-rent-lamborghini-urus-in-abu-dhabi.mp3",
+      "video": "2026-10-13-rent-lamborghini-urus-in-abu-dhabi.mp4",
+      "srt": "2026-10-13-rent-lamborghini-urus-in-abu-dhabi.srt",
+      "title": "Anniversary Drive: Lamborghini Urus in Abu Dhabi",
+      "description": "Octane Drive Stories: a guest's experience with the Lamborghini Urus in Abu Dhabi: https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/",
+      "youtube_title": "Review of Lamborghini Urus rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/Cru0myr4KuU",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "indian-family",
+        "expert_topic": "day-mileage",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Urus.jpg",
+      "pub_date": "Tue, 13 Oct 2026 15:17:03 +0000",
+      "duration_sec": 328,
+      "bytes": 5252835
     }
   ]
 }
