@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 15:17:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 13:06:22 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Lamborghini Huracan: Business &amp; Bliss in Abu Dhabi</title>
+      <link>https://octane.rent/sports-cars-abu-dhabi/lamborghini-huracan/</link>
+      <description>Octane Drive Stories: a guest's experience with the Lamborghini Huracan in Abu Dhabi: https://octane.rent/sports-cars-abu-dhabi/lamborghini-huracan/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-14-rent-lamborghini-huracan-in-abu-dhabi.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-14-rent-lamborghini-huracan-in-abu-dhabi.mp3" length="5685987" type="audio/mpeg"/>
+      <pubDate>Wed, 14 Oct 2026 13:06:22 +0000</pubDate>
+      <itunes:duration>05:55</itunes:duration>
+    </item>
     <item>
       <title>Anniversary Drive: Lamborghini Urus in Abu Dhabi</title>
       <link>https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/</link>
