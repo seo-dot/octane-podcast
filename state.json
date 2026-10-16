@@ -24,7 +24,8 @@
     "https://octane.rent/sports-cars-abu-dhabi/ferrari-f8-tributo/",
     "https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/",
     "https://octane.rent/sports-cars-abu-dhabi/lamborghini-huracan/",
-    "https://octane.rent/suv-cars-abu-dhabi/bentley-bentayga/"
+    "https://octane.rent/suv-cars-abu-dhabi/bentley-bentayga/",
+    "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/"
   ],
   "episodes": [
     {
@@ -551,6 +552,27 @@
       "pub_date": "Thu, 15 Oct 2026 12:54:54 +0000",
       "duration_sec": 349,
       "bytes": 5591139
+    },
+    {
+      "file": "2026-10-16-rent-porsche-911-in-abu-dhabi.mp3",
+      "video": "2026-10-16-rent-porsche-911-in-abu-dhabi.mp4",
+      "srt": "2026-10-16-rent-porsche-911-in-abu-dhabi.srt",
+      "title": "Porsche 911 Anniversary Drive in Abu Dhabi",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche 911 in Abu Dhabi: https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/",
+      "youtube_title": "Review of Porsche 911 rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/3Y-WXw2lh7U",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "french-couple",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/",
+      "image": "https://octane.rent/wp-content/uploads/2022/04/porsche_911_targa_header_desktop.jpg",
+      "pub_date": "Fri, 16 Oct 2026 12:47:09 +0000",
+      "duration_sec": 376,
+      "bytes": 6022371
     }
   ]
 }
