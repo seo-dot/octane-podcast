@@ -25,7 +25,8 @@
     "https://octane.rent/sports-cars-abu-dhabi/lamborghini-urus/",
     "https://octane.rent/sports-cars-abu-dhabi/lamborghini-huracan/",
     "https://octane.rent/suv-cars-abu-dhabi/bentley-bentayga/",
-    "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/"
+    "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/",
+    "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-taycan/"
   ],
   "episodes": [
     {
@@ -573,6 +574,27 @@
       "pub_date": "Fri, 16 Oct 2026 12:47:09 +0000",
       "duration_sec": 376,
       "bytes": 6022371
+    },
+    {
+      "file": "2026-10-17-rent-porsche-taycan-in-abu-dhabi.mp3",
+      "video": "2026-10-17-rent-porsche-taycan-in-abu-dhabi.mp4",
+      "srt": "2026-10-17-rent-porsche-taycan-in-abu-dhabi.srt",
+      "title": "Weekend Escape in the Porsche Taycan",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche Taycan in Abu Dhabi: https://octane.rent/sports-cars-abu-dhabi/rent-porsche-taycan/",
+      "youtube_title": "Review of Porsche Taycan rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/YU_Wzqh20fU",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "russian-solo",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-taycan/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/descktop_taycan-2-1.jpg",
+      "pub_date": "Sat, 17 Oct 2026 11:52:37 +0000",
+      "duration_sec": 392,
+      "bytes": 6279651
     }
   ]
 }
