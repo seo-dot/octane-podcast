@@ -28,7 +28,8 @@
     "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-911/",
     "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-taycan/",
     "https://octane.rent/convertible-cars-abu-dhabi/porsche-boxster/",
-    "https://octane.rent/suv-cars-abu-dhabi/mercedes-g63-amg/"
+    "https://octane.rent/suv-cars-abu-dhabi/mercedes-g63-amg/",
+    "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/"
   ],
   "episodes": [
     {
@@ -639,6 +640,27 @@
       "pub_date": "Mon, 19 Oct 2026 14:56:35 +0000",
       "duration_sec": 341,
       "bytes": 5463651
+    },
+    {
+      "file": "2026-10-20-rent-mercedes-gls-in-abu-dhabi.mp3",
+      "video": "2026-10-20-rent-mercedes-gls-in-abu-dhabi.mp4",
+      "srt": "2026-10-20-rent-mercedes-gls-in-abu-dhabi.srt",
+      "title": "Rent Mercedes GLS in Abu Dhabi — Special occasion",
+      "description": "Octane Drive Stories: a guest's experience with the Mercedes GLS in Abu Dhabi: https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/",
+      "youtube_title": "Review of Mercedes GLS rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/ZVzNEzsxgzg",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "emirati-local",
+        "expert_topic": "fines-salik",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/",
+      "image": "https://octane.rent/wp-content/uploads/2022/04/descktop_gls.jpg",
+      "pub_date": "Tue, 20 Oct 2026 12:51:33 +0000",
+      "duration_sec": 82,
+      "bytes": 1319907
     }
   ]
 }
