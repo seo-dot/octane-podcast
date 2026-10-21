@@ -29,7 +29,8 @@
     "https://octane.rent/sports-cars-abu-dhabi/rent-porsche-taycan/",
     "https://octane.rent/convertible-cars-abu-dhabi/porsche-boxster/",
     "https://octane.rent/suv-cars-abu-dhabi/mercedes-g63-amg/",
-    "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/"
+    "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/",
+    "https://octane.rent/suv-cars-abu-dhabi/bmw-x7/"
   ],
   "episodes": [
     {
@@ -661,6 +662,27 @@
       "pub_date": "Tue, 20 Oct 2026 12:51:33 +0000",
       "duration_sec": 82,
       "bytes": 1319907
+    },
+    {
+      "file": "2026-10-21-rent-bmw-x7-in-abu-dhabi.mp3",
+      "video": "2026-10-21-rent-bmw-x7-in-abu-dhabi.mp4",
+      "srt": "2026-10-21-rent-bmw-x7-in-abu-dhabi.srt",
+      "title": "The Executive Presence: BMW X7 in Abu Dhabi",
+      "description": "Octane Drive Stories: a guest's experience with the BMW X7 in Abu Dhabi: https://octane.rent/suv-cars-abu-dhabi/bmw-x7/",
+      "youtube_title": "Review of BMW X7 rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/JL0piR-Zxcg",
+      "plan": {
+        "story": "business-flex",
+        "guest": "uk-solo",
+        "expert_topic": "day-mileage",
+        "segment": "weekend-route",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/suv-cars-abu-dhabi/bmw-x7/",
+      "image": "https://octane.rent/wp-content/uploads/2022/12/bmw-x7-header.jpg",
+      "pub_date": "Wed, 21 Oct 2026 13:09:45 +0000",
+      "duration_sec": 357,
+      "bytes": 5718243
     }
   ]
 }
