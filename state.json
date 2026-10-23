@@ -31,7 +31,8 @@
     "https://octane.rent/suv-cars-abu-dhabi/mercedes-g63-amg/",
     "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/",
     "https://octane.rent/suv-cars-abu-dhabi/bmw-x7/",
-    "https://octane.rent/suv-cars-abu-dhabi/chevrolet-tahoe/"
+    "https://octane.rent/suv-cars-abu-dhabi/chevrolet-tahoe/",
+    "https://octane.rent/geely-for-rent-abu-dhabi/"
   ],
   "episodes": [
     {
@@ -705,6 +706,27 @@
       "pub_date": "Thu, 22 Oct 2026 13:07:32 +0000",
       "duration_sec": 79,
       "bytes": 1277667
+    },
+    {
+      "file": "2026-10-23-rent-geely-in-abu-dhabi.mp3",
+      "video": "2026-10-23-rent-geely-in-abu-dhabi.mp4",
+      "srt": "2026-10-23-rent-geely-in-abu-dhabi.srt",
+      "title": "Rent Geely in Abu Dhabi — First time in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Geely in Abu Dhabi: https://octane.rent/geely-for-rent-abu-dhabi/",
+      "youtube_title": "Review of Geely rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/_YVkALfqg6o",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "indian-family",
+        "expert_topic": "deposit",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/geely-for-rent-abu-dhabi/",
+      "image": "https://octane.rent/wp-content/uploads/2024/02/header-geely-tugella-grey.jpg",
+      "pub_date": "Fri, 23 Oct 2026 12:45:01 +0000",
+      "duration_sec": 78,
+      "bytes": 1253091
     }
   ]
 }
