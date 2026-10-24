@@ -32,7 +32,8 @@
     "https://octane.rent/suv-cars-abu-dhabi/mercedes-benz-gls/",
     "https://octane.rent/suv-cars-abu-dhabi/bmw-x7/",
     "https://octane.rent/suv-cars-abu-dhabi/chevrolet-tahoe/",
-    "https://octane.rent/geely-for-rent-abu-dhabi/"
+    "https://octane.rent/geely-for-rent-abu-dhabi/",
+    "https://octane.rent/cars-abu-dhabi/"
   ],
   "episodes": [
     {
@@ -727,6 +728,27 @@
       "pub_date": "Fri, 23 Oct 2026 12:45:01 +0000",
       "duration_sec": 78,
       "bytes": 1253091
+    },
+    {
+      "file": "2026-10-24-car-rental-in-abu-dhabi-without-deposit.mp3",
+      "video": "2026-10-24-car-rental-in-abu-dhabi-without-deposit.mp4",
+      "srt": "2026-10-24-car-rental-in-abu-dhabi-without-deposit.srt",
+      "title": "Car Rental in Abu Dhabi Without Deposit — Weekend escape",
+      "description": "Octane Drive Stories: a guest's experience with the Car Rental in Abu Dhabi Without Deposit in Abu Dhabi: https://octane.rent/cars-abu-dhabi/",
+      "youtube_title": "Review of Car Rental in Abu Dhabi Without Deposit rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/x8PyQ27Ozzc",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "saudi-local",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/cars-abu-dhabi/",
+      "image": "https://octane.rent/wp-content/uploads/2023/01/main-b-500.jpg",
+      "pub_date": "Sat, 24 Oct 2026 12:09:29 +0000",
+      "duration_sec": 91,
+      "bytes": 1468515
     }
   ]
 }
