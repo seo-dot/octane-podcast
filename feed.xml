@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 12:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 12:42:09 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Rent Convertible Car in Abu Dhabi — Dream car for a day</title>
+      <link>https://octane.rent/convertible-car-rental-abu-dhabi/</link>
+      <description>Octane Drive Stories: a guest's experience with the Convertible Car in Abu Dhabi: https://octane.rent/convertible-car-rental-abu-dhabi/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-25-rent-convertible-car-in-abu-dhabi.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-25-rent-convertible-car-in-abu-dhabi.mp3" length="1378659" type="audio/mpeg"/>
+      <pubDate>Sun, 25 Oct 2026 12:42:09 +0000</pubDate>
+      <itunes:duration>01:26</itunes:duration>
+    </item>
     <item>
       <title>Car Rental in Abu Dhabi Without Deposit — Weekend escape</title>
       <link>https://octane.rent/cars-abu-dhabi/</link>
