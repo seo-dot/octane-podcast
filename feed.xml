@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 12:42:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:02:39 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Rent coupe in Abu Dhabi — Road trip</title>
+      <link>https://octane.rent/coupe-rental-abu-dhabi/</link>
+      <description>Octane Drive Stories: a guest's experience with the coupe in Abu Dhabi: https://octane.rent/coupe-rental-abu-dhabi/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-26-rent-coupe-in-abu-dhabi.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-26-rent-coupe-in-abu-dhabi.mp3" length="1269603" type="audio/mpeg"/>
+      <pubDate>Mon, 26 Oct 2026 18:02:39 +0000</pubDate>
+      <itunes:duration>01:19</itunes:duration>
+    </item>
     <item>
       <title>Rent Convertible Car in Abu Dhabi — Dream car for a day</title>
       <link>https://octane.rent/convertible-car-rental-abu-dhabi/</link>
