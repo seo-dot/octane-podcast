@@ -35,7 +35,8 @@
     "https://octane.rent/geely-for-rent-abu-dhabi/",
     "https://octane.rent/cars-abu-dhabi/",
     "https://octane.rent/convertible-car-rental-abu-dhabi/",
-    "https://octane.rent/coupe-rental-abu-dhabi/"
+    "https://octane.rent/coupe-rental-abu-dhabi/",
+    "https://octane.rent/luxury-car-rental-abu-dhabi/"
   ],
   "episodes": [
     {
@@ -793,6 +794,27 @@
       "pub_date": "Mon, 26 Oct 2026 18:02:39 +0000",
       "duration_sec": 79,
       "bytes": 1269603
+    },
+    {
+      "file": "2026-10-27-luxury-car-rental-abu-dhabi.mp3",
+      "video": "2026-10-27-luxury-car-rental-abu-dhabi.mp4",
+      "srt": "2026-10-27-luxury-car-rental-abu-dhabi.srt",
+      "title": "Luxury Car Rental Abu Dhabi — Special occasion",
+      "description": "Octane Drive Stories: a guest's experience with the Luxury Car Rental Abu Dhabi in Abu Dhabi: https://octane.rent/luxury-car-rental-abu-dhabi/",
+      "youtube_title": "Review of Luxury Car Rental Abu Dhabi rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/HsLImRkhSso",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "russian-solo",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/luxury-car-rental-abu-dhabi/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Luxury.jpg",
+      "pub_date": "Tue, 27 Oct 2026 13:26:33 +0000",
+      "duration_sec": 89,
+      "bytes": 1431267
     }
   ]
 }
