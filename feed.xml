@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 14:21:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:43:08 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>SUV Stories: Showing Abu Dhabi to a Friend</title>
+      <link>https://octane.rent/suv-car-rental-abu-dhabi/</link>
+      <description>Octane Drive Stories: a guest's experience with the SUV in Abu Dhabi: https://octane.rent/suv-car-rental-abu-dhabi/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-29-rent-suv-in-abu-dhabi.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-29-rent-suv-in-abu-dhabi.mp3" length="6526179" type="audio/mpeg"/>
+      <pubDate>Thu, 29 Oct 2026 14:43:08 +0000</pubDate>
+      <itunes:duration>06:47</itunes:duration>
+    </item>
     <item>
       <title>Abu Dhabi Through the Lens: A Sports Car Shoot with Octane Rent</title>
       <link>https://octane.rent/sportscar-rental-abu-dhabi/</link>
