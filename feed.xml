@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 14:35:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 13:50:38 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Economy Cars rental in Abu Dhabi</title>
+      <link>https://octane.rent/economy-car-rental-abu-dhabi/</link>
+      <description>Octane Drive Stories: a guest's experience with the Economy Cars rental in Abu Dhabi: https://octane.rent/economy-car-rental-abu-dhabi/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-10-31-economy-cars-rental-in-abu-dhabi.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-10-31-economy-cars-rental-in-abu-dhabi.mp3" length="3492195" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Oct 2026 13:50:38 +0000</pubDate>
+      <itunes:duration>03:38</itunes:duration>
+    </item>
     <item>
       <title>VAN Life: 48 Hours Across Abu Dhabi</title>
       <link>https://octane.rent/van-car-rental-abu-dhabi/</link>

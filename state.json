@@ -40,7 +40,8 @@
     "https://octane.rent/rent-premium-sedan-in-abu-dhabi/",
     "https://octane.rent/sportscar-rental-abu-dhabi/",
     "https://octane.rent/suv-car-rental-abu-dhabi/",
-    "https://octane.rent/van-car-rental-abu-dhabi/"
+    "https://octane.rent/van-car-rental-abu-dhabi/",
+    "https://octane.rent/economy-car-rental-abu-dhabi/"
   ],
   "episodes": [
     {
@@ -903,6 +904,27 @@
       "pub_date": "Fri, 30 Oct 2026 14:35:32 +0000",
       "duration_sec": 489,
       "bytes": 7840995
+    },
+    {
+      "file": "2026-10-31-economy-cars-rental-in-abu-dhabi.mp3",
+      "video": "2026-10-31-economy-cars-rental-in-abu-dhabi.mp4",
+      "srt": "2026-10-31-economy-cars-rental-in-abu-dhabi.srt",
+      "title": "Economy Cars rental in Abu Dhabi",
+      "description": "Octane Drive Stories: a guest's experience with the Economy Cars rental in Abu Dhabi: https://octane.rent/economy-car-rental-abu-dhabi/",
+      "youtube_title": "Review of Economy Cars rental rental in Abu Dhabi with Octane Rent",
+      "youtube_url": "https://youtu.be/mrnZW1vjHFQ",
+      "plan": {
+        "story": "dream-car-day",
+        "guest": "german-couple",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/economy-car-rental-abu-dhabi/",
+      "image": "https://octane.rent/wp-content/uploads/2023/09/header-chevrolet-captiva-grey-1.jpg",
+      "pub_date": "Sat, 31 Oct 2026 13:50:38 +0000",
+      "duration_sec": 218,
+      "bytes": 3492195
     }
   ]
 }
