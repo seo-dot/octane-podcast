@@ -41,7 +41,8 @@
     "https://octane.rent/sportscar-rental-abu-dhabi/",
     "https://octane.rent/suv-car-rental-abu-dhabi/",
     "https://octane.rent/van-car-rental-abu-dhabi/",
-    "https://octane.rent/economy-car-rental-abu-dhabi/"
+    "https://octane.rent/economy-car-rental-abu-dhabi/",
+    "https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/"
   ],
   "episodes": [
     {
@@ -925,6 +926,27 @@
       "pub_date": "Sat, 31 Oct 2026 13:50:38 +0000",
       "duration_sec": 218,
       "bytes": 3492195
+    },
+    {
+      "file": "2026-11-01-rent-rolls-royce-cullinan-in-sharjah.mp3",
+      "video": "2026-11-01-rent-rolls-royce-cullinan-in-sharjah.mp4",
+      "srt": "2026-11-01-rent-rolls-royce-cullinan-in-sharjah.srt",
+      "title": "Rolls-Royce Cullinan: A Sharjah Journey",
+      "description": "Octane Drive Stories: a guest's experience with the Rolls-Royce Cullinan in Sharjah: https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/",
+      "youtube_title": "Review of Rolls-Royce Cullinan rental in Sharjah with Octane Rent",
+      "youtube_url": "https://youtu.be/uYKopBxzg64",
+      "plan": {
+        "story": "road-trip",
+        "guest": "indian-family",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/",
+      "image": "https://octane.rent/wp-content/uploads/2022/02/descktop_cullinan.jpg",
+      "pub_date": "Sun, 01 Nov 2026 14:29:52 +0000",
+      "duration_sec": 326,
+      "bytes": 5223267
     }
   ]
 }
