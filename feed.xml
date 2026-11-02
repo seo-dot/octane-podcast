@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 14:29:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 17:22:44 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Rolls Royce Dawn: An Anniversary to Remember</title>
+      <link>https://octane.rent/rent-rolls-royce-dawn-in-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Rolls Royce Dawn in Dubai: https://octane.rent/rent-rolls-royce-dawn-in-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-02-rent-rolls-royce-dawn-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-02-rent-rolls-royce-dawn-in-dubai.mp3" length="5245923" type="audio/mpeg"/>
+      <pubDate>Mon, 02 Nov 2026 17:22:44 +0000</pubDate>
+      <itunes:duration>05:27</itunes:duration>
+    </item>
     <item>
       <title>Rolls-Royce Cullinan: A Sharjah Journey</title>
       <link>https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/</link>
