@@ -104,9 +104,13 @@ BRAND_PRIORITY = [
 
 # Прочее
 CARS_PER_RUN = int(_get("CARS_PER_RUN", "1") or "1")
+# Страницы авто: категории (cars, suv, ...) и страницы конкретных машин вида
+# rent-<марка>-<город>, <марка>-rental-<город>, <марка>-for-rent-...
 CAR_URL_PATTERN = _get(
     "CAR_URL_PATTERN",
-    r"(cars|car-rental|for-rent|suv|sports|luxury|convertible|sedan|coupe|premium)",
+    r"(cars|car-rental|for-rent|suv|sports|luxury|convertible|sedan|coupe|premium"
+    r"|/rent-|-rental|rental-|-rent-|rolls-royce|ferrari|lamborghini|bentley|mclaren"
+    r"|aston-martin|maserati|porsche|mercedes|bmw|audi|range-rover|land-rover|cadillac)",
 )
 
 SITEMAP_INDEX = f"{PODCAST_SITE}/sitemap.xml"
