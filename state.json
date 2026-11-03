@@ -43,7 +43,8 @@
     "https://octane.rent/van-car-rental-abu-dhabi/",
     "https://octane.rent/economy-car-rental-abu-dhabi/",
     "https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/",
-    "https://octane.rent/rent-rolls-royce-dawn-in-dubai/"
+    "https://octane.rent/rent-rolls-royce-dawn-in-dubai/",
+    "https://octane.rent/rent-rolls-royce-ghost-in-dubai/"
   ],
   "episodes": [
     {
@@ -969,6 +970,27 @@
       "pub_date": "Mon, 02 Nov 2026 17:22:44 +0000",
       "duration_sec": 327,
       "bytes": 5245923
+    },
+    {
+      "file": "2026-11-03-rent-rolls-royce-ghost-in-dubai.mp3",
+      "video": "2026-11-03-rent-rolls-royce-ghost-in-dubai.mp4",
+      "srt": "2026-11-03-rent-rolls-royce-ghost-in-dubai.srt",
+      "title": "Rolls Royce Ghost Experience in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Rolls Royce Ghost in Dubai: https://octane.rent/rent-rolls-royce-ghost-in-dubai/",
+      "youtube_title": "Review of Rolls Royce Ghost rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/qWHt8fFTQzc",
+      "plan": {
+        "story": "business-flex",
+        "guest": "american-creator",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/rent-rolls-royce-ghost-in-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/05/rollsroyce-ghost-front.jpg",
+      "pub_date": "Tue, 03 Nov 2026 15:27:34 +0000",
+      "duration_sec": 244,
+      "bytes": 3917283
     }
   ]
 }
