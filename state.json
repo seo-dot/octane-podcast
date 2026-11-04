@@ -44,7 +44,8 @@
     "https://octane.rent/economy-car-rental-abu-dhabi/",
     "https://octane.rent/luxury-cars-sharjah/rolls-royce-cullinan/",
     "https://octane.rent/rent-rolls-royce-dawn-in-dubai/",
-    "https://octane.rent/rent-rolls-royce-ghost-in-dubai/"
+    "https://octane.rent/rent-rolls-royce-ghost-in-dubai/",
+    "https://octane.rent/rent-rolls-royce-wraith-in-dubai/"
   ],
   "episodes": [
     {
@@ -991,6 +992,27 @@
       "pub_date": "Tue, 03 Nov 2026 15:27:34 +0000",
       "duration_sec": 244,
       "bytes": 3917283
+    },
+    {
+      "file": "2026-11-04-rent-rolls-royce-wraith-in-dubai.mp3",
+      "video": "2026-11-04-rent-rolls-royce-wraith-in-dubai.mp4",
+      "srt": "2026-11-04-rent-rolls-royce-wraith-in-dubai.srt",
+      "title": "Anniversary Lights: Rolls Royce Wraith in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Rolls Royce Wraith in Dubai: https://octane.rent/rent-rolls-royce-wraith-in-dubai/",
+      "youtube_title": "Review of Rolls Royce Wraith rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/Tm43NEPVBf4",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "french-couple",
+        "expert_topic": "fines-salik",
+        "segment": "rental-lifehack",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-rolls-royce-wraith-in-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/03/rolls-royce-wraith-black-1-header.jpg",
+      "pub_date": "Wed, 04 Nov 2026 15:46:49 +0000",
+      "duration_sec": 355,
+      "bytes": 5688675
     }
   ]
 }
