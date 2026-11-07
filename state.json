@@ -47,7 +47,8 @@
     "https://octane.rent/rent-rolls-royce-ghost-in-dubai/",
     "https://octane.rent/rent-rolls-royce-wraith-in-dubai/",
     "https://octane.rent/rolls-royce-rental-dubai/",
-    "https://octane.rent/rent-ferrari-sf90-dubai/"
+    "https://octane.rent/rent-ferrari-sf90-dubai/",
+    "https://octane.rent/rent-ferrari-portofino-dubai/"
   ],
   "episodes": [
     {
@@ -1057,6 +1058,27 @@
       "pub_date": "Fri, 06 Nov 2026 15:20:27 +0000",
       "duration_sec": 267,
       "bytes": 4285923
+    },
+    {
+      "file": "2026-11-07-rent-ferrari-portofino-in-dubai.mp3",
+      "video": "2026-11-07-rent-ferrari-portofino-in-dubai.mp4",
+      "srt": "2026-11-07-rent-ferrari-portofino-in-dubai.srt",
+      "title": "Ferrari Portofino – A Dream Day in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Ferrari Portofino in Dubai: https://octane.rent/rent-ferrari-portofino-dubai/",
+      "youtube_title": "Review of Ferrari Portofino rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/BGyZ98o6nbs",
+      "plan": {
+        "story": "dream-car-day",
+        "guest": "chinese-couple",
+        "expert_topic": "deposit",
+        "segment": "place-of-week",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-ferrari-portofino-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/12/Ferrari-portofino-red-header.jpg",
+      "pub_date": "Sat, 07 Nov 2026 14:20:45 +0000",
+      "duration_sec": 281,
+      "bytes": 4509027
     }
   ]
 }
