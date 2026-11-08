@@ -48,7 +48,8 @@
     "https://octane.rent/rent-rolls-royce-wraith-in-dubai/",
     "https://octane.rent/rolls-royce-rental-dubai/",
     "https://octane.rent/rent-ferrari-sf90-dubai/",
-    "https://octane.rent/rent-ferrari-portofino-dubai/"
+    "https://octane.rent/rent-ferrari-portofino-dubai/",
+    "https://octane.rent/rent-ferrari-dubai/"
   ],
   "episodes": [
     {
@@ -1079,6 +1080,27 @@
       "pub_date": "Sat, 07 Nov 2026 14:20:45 +0000",
       "duration_sec": 281,
       "bytes": 4509027
+    },
+    {
+      "file": "2026-11-08-rent-ferrari-in-dubai.mp3",
+      "video": "2026-11-08-rent-ferrari-in-dubai.mp4",
+      "srt": "2026-11-08-rent-ferrari-in-dubai.srt",
+      "title": "Ferrari Dreams on Dubai Roads",
+      "description": "Octane Drive Stories: a guest's experience with the Ferrari in Dubai: https://octane.rent/rent-ferrari-dubai/",
+      "youtube_title": "Review of Ferrari rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/GtRG74fQoBE",
+      "plan": {
+        "story": "road-trip",
+        "guest": "emirati-local",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/rent-ferrari-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Ferrari.jpg",
+      "pub_date": "Sun, 08 Nov 2026 14:29:18 +0000",
+      "duration_sec": 244,
+      "bytes": 3905763
     }
   ]
 }
