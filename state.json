@@ -49,7 +49,8 @@
     "https://octane.rent/rolls-royce-rental-dubai/",
     "https://octane.rent/rent-ferrari-sf90-dubai/",
     "https://octane.rent/rent-ferrari-portofino-dubai/",
-    "https://octane.rent/rent-ferrari-dubai/"
+    "https://octane.rent/rent-ferrari-dubai/",
+    "https://octane.rent/rent-lamborghini-aventador-dubai/"
   ],
   "episodes": [
     {
@@ -1101,6 +1102,27 @@
       "pub_date": "Sun, 08 Nov 2026 14:29:18 +0000",
       "duration_sec": 244,
       "bytes": 3905763
+    },
+    {
+      "file": "2026-11-09-rent-lamborghini-aventador-in-dubai.mp3",
+      "video": "2026-11-09-rent-lamborghini-aventador-in-dubai.mp4",
+      "srt": "2026-11-09-rent-lamborghini-aventador-in-dubai.srt",
+      "title": "Birthday Blast in a V12: Lamborghini Aventador",
+      "description": "Octane Drive Stories: a guest's experience with the Lamborghini Aventador in Dubai: https://octane.rent/rent-lamborghini-aventador-dubai/",
+      "youtube_title": "Review of Lamborghini Aventador rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/f0F_9wV1nA8",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "uk-solo",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/rent-lamborghini-aventador-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/11/lamborghini-aventador-svj-header.jpg",
+      "pub_date": "Mon, 09 Nov 2026 17:54:58 +0000",
+      "duration_sec": 505,
+      "bytes": 8090595
     }
   ]
 }
