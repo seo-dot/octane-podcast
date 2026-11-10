@@ -50,7 +50,8 @@
     "https://octane.rent/rent-ferrari-sf90-dubai/",
     "https://octane.rent/rent-ferrari-portofino-dubai/",
     "https://octane.rent/rent-ferrari-dubai/",
-    "https://octane.rent/rent-lamborghini-aventador-dubai/"
+    "https://octane.rent/rent-lamborghini-aventador-dubai/",
+    "https://octane.rent/lamborghini-rental-dubai/"
   ],
   "episodes": [
     {
@@ -1123,6 +1124,27 @@
       "pub_date": "Mon, 09 Nov 2026 17:54:58 +0000",
       "duration_sec": 505,
       "bytes": 8090595
+    },
+    {
+      "file": "2026-11-10-rent-lamborghini-in-dubai.mp3",
+      "video": "2026-11-10-rent-lamborghini-in-dubai.mp4",
+      "srt": "2026-11-10-rent-lamborghini-in-dubai.srt",
+      "title": "Lamborghini Dreams in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Lamborghini in Dubai: https://octane.rent/lamborghini-rental-dubai/",
+      "youtube_title": "Review of Lamborghini rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/8QqFNG0wFYA",
+      "plan": {
+        "story": "business-flex",
+        "guest": "german-couple",
+        "expert_topic": "delivery",
+        "segment": "car-duel",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/lamborghini-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Lamborghini.jpg",
+      "pub_date": "Tue, 10 Nov 2026 15:48:36 +0000",
+      "duration_sec": 254,
+      "bytes": 4079715
     }
   ]
 }
