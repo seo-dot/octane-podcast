@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 18:57:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:14:21 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>First Time in Dubai, Behind the Wheel of a Bentley</title>
+      <link>https://octane.rent/bentley-rental-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Bentley in Dubai: https://octane.rent/bentley-rental-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-12-rent-bentley-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-12-rent-bentley-in-dubai.mp3" length="10788195" type="audio/mpeg"/>
+      <pubDate>Thu, 12 Nov 2026 16:14:21 +0000</pubDate>
+      <itunes:duration>11:14</itunes:duration>
+    </item>
     <item>
       <title>Bentley Continental in Dubai: A Photographer's Drive</title>
       <link>https://octane.rent/rent-bentley-continental-dubai/</link>
