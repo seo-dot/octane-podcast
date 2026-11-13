@@ -53,7 +53,8 @@
     "https://octane.rent/rent-lamborghini-aventador-dubai/",
     "https://octane.rent/lamborghini-rental-dubai/",
     "https://octane.rent/rent-bentley-continental-dubai/",
-    "https://octane.rent/bentley-rental-dubai/"
+    "https://octane.rent/bentley-rental-dubai/",
+    "https://octane.rent/rent-mclaren-720s-dubai/"
   ],
   "episodes": [
     {
@@ -1189,6 +1190,27 @@
       "pub_date": "Thu, 12 Nov 2026 16:14:21 +0000",
       "duration_sec": 674,
       "bytes": 10788195
+    },
+    {
+      "file": "2026-11-13-rent-mclaren-720s-in-dubai.mp3",
+      "video": "2026-11-13-rent-mclaren-720s-in-dubai.mp4",
+      "srt": "2026-11-13-rent-mclaren-720s-in-dubai.srt",
+      "title": "McLaren 720S Weekend Escape",
+      "description": "Octane Drive Stories: a guest's experience with the McLaren 720S in Dubai: https://octane.rent/rent-mclaren-720s-dubai/",
+      "youtube_title": "Review of McLaren 720S rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/WL9yuJn5ydQ",
+      "plan": {
+        "story": "weekend-escape",
+        "guest": "american-creator",
+        "expert_topic": "day-mileage",
+        "segment": "weekend-route",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-mclaren-720s-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/05/mclaren-720s-grey-1.jpg",
+      "pub_date": "Fri, 13 Nov 2026 15:38:34 +0000",
+      "duration_sec": 298,
+      "bytes": 4780131
     }
   ]
 }
