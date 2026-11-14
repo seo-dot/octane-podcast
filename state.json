@@ -54,7 +54,8 @@
     "https://octane.rent/lamborghini-rental-dubai/",
     "https://octane.rent/rent-bentley-continental-dubai/",
     "https://octane.rent/bentley-rental-dubai/",
-    "https://octane.rent/rent-mclaren-720s-dubai/"
+    "https://octane.rent/rent-mclaren-720s-dubai/",
+    "https://octane.rent/rent-mclaren-600lt-in-dubai/"
   ],
   "episodes": [
     {
@@ -1211,6 +1212,27 @@
       "pub_date": "Fri, 13 Nov 2026 15:38:34 +0000",
       "duration_sec": 298,
       "bytes": 4780131
+    },
+    {
+      "file": "2026-11-14-rent-mclaren-600lt-in-dubai.mp3",
+      "video": "2026-11-14-rent-mclaren-600lt-in-dubai.mp4",
+      "srt": "2026-11-14-rent-mclaren-600lt-in-dubai.srt",
+      "title": "Anniversary Drive in the McLaren 600LT",
+      "description": "Octane Drive Stories: a guest's experience with the Mclaren 600LT in Dubai: https://octane.rent/rent-mclaren-600lt-in-dubai/",
+      "youtube_title": "Review of Mclaren 600LT rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/E9OXV9qCPiM",
+      "plan": {
+        "story": "dream-car-day",
+        "guest": "french-couple",
+        "expert_topic": "prohibited",
+        "segment": "car-duel",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/rent-mclaren-600lt-in-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2023/03/mclaren-600lt-orange-1-header.jpg",
+      "pub_date": "Sat, 14 Nov 2026 14:28:12 +0000",
+      "duration_sec": 230,
+      "bytes": 3686115
     }
   ]
 }
