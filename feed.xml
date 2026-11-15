@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 14:28:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 15:01:50 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Mclaren Magic on Sheikh Zayed Road</title>
+      <link>https://octane.rent/mclaren-rental-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Mclaren in Dubai: https://octane.rent/mclaren-rental-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-15-rent-mclaren-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-15-rent-mclaren-in-dubai.mp3" length="5152227" type="audio/mpeg"/>
+      <pubDate>Sun, 15 Nov 2026 15:01:50 +0000</pubDate>
+      <itunes:duration>05:21</itunes:duration>
+    </item>
     <item>
       <title>Anniversary Drive in the McLaren 600LT</title>
       <link>https://octane.rent/rent-mclaren-600lt-in-dubai/</link>
