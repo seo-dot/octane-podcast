@@ -56,7 +56,8 @@
     "https://octane.rent/bentley-rental-dubai/",
     "https://octane.rent/rent-mclaren-720s-dubai/",
     "https://octane.rent/rent-mclaren-600lt-in-dubai/",
-    "https://octane.rent/mclaren-rental-dubai/"
+    "https://octane.rent/mclaren-rental-dubai/",
+    "https://octane.rent/rent-aston-martin-dbx-dubai/"
   ],
   "episodes": [
     {
@@ -1255,6 +1256,27 @@
       "pub_date": "Sun, 15 Nov 2026 15:01:50 +0000",
       "duration_sec": 321,
       "bytes": 5152227
+    },
+    {
+      "file": "2026-11-16-rent-aston-martin-dbx-in-dubai.mp3",
+      "video": "2026-11-16-rent-aston-martin-dbx-in-dubai.mp4",
+      "srt": "2026-11-16-rent-aston-martin-dbx-in-dubai.srt",
+      "title": "Aston Martin DBX: Anniversary Drive in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Aston Martin DBX in Dubai: https://octane.rent/rent-aston-martin-dbx-dubai/",
+      "youtube_title": "Review of Aston Martin DBX rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/a7FtYwTD64g",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "nigerian-solo",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-aston-martin-dbx-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2024/04/aston-martin-dbx-purple-3.jpg",
+      "pub_date": "Mon, 16 Nov 2026 17:24:36 +0000",
+      "duration_sec": 380,
+      "bytes": 6083043
     }
   ]
 }
