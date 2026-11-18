@@ -58,7 +58,8 @@
     "https://octane.rent/rent-mclaren-600lt-in-dubai/",
     "https://octane.rent/mclaren-rental-dubai/",
     "https://octane.rent/rent-aston-martin-dbx-dubai/",
-    "https://octane.rent/rent-aston-martin-dubai/"
+    "https://octane.rent/rent-aston-martin-dubai/",
+    "https://octane.rent/maserati-rental-dubai/"
   ],
   "episodes": [
     {
@@ -1299,6 +1300,27 @@
       "pub_date": "Tue, 17 Nov 2026 17:04:12 +0000",
       "duration_sec": 264,
       "bytes": 4239075
+    },
+    {
+      "file": "2026-11-18-rent-maserati-in-dubai.mp3",
+      "video": "2026-11-18-rent-maserati-in-dubai.mp4",
+      "srt": "2026-11-18-rent-maserati-in-dubai.srt",
+      "title": "Maserati Magic in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Maserati in Dubai: https://octane.rent/maserati-rental-dubai/",
+      "youtube_title": "Review of Maserati rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/COb3TFcBxpY",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "emirati-local",
+        "expert_topic": "delivery",
+        "segment": "car-duel",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/maserati-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/05/maserati-grancabrio-front-1.jpg",
+      "pub_date": "Wed, 18 Nov 2026 16:42:54 +0000",
+      "duration_sec": 295,
+      "bytes": 4722146
     }
   ]
 }

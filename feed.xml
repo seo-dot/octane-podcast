@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 17:04:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 16:42:54 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Maserati Magic in Dubai</title>
+      <link>https://octane.rent/maserati-rental-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Maserati in Dubai: https://octane.rent/maserati-rental-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-18-rent-maserati-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-18-rent-maserati-in-dubai.mp3" length="4722146" type="audio/mpeg"/>
+      <pubDate>Wed, 18 Nov 2026 16:42:54 +0000</pubDate>
+      <itunes:duration>04:55</itunes:duration>
+    </item>
     <item>
       <title>Aston Martin Experience in Dubai</title>
       <link>https://octane.rent/rent-aston-martin-dubai/</link>
