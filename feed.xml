@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 16:42:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 16:45:39 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>First Drive: Porsche 911 Carrera in Dubai</title>
+      <link>https://octane.rent/rent-porsche-911-carrera-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Porsche 911 Carrera in Dubai: https://octane.rent/rent-porsche-911-carrera-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-19-rent-porsche-911-carrera-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-19-rent-porsche-911-carrera-in-dubai.mp3" length="4482146" type="audio/mpeg"/>
+      <pubDate>Thu, 19 Nov 2026 16:45:39 +0000</pubDate>
+      <itunes:duration>04:40</itunes:duration>
+    </item>
     <item>
       <title>Maserati Magic in Dubai</title>
       <link>https://octane.rent/maserati-rental-dubai/</link>

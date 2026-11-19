@@ -59,7 +59,8 @@
     "https://octane.rent/mclaren-rental-dubai/",
     "https://octane.rent/rent-aston-martin-dbx-dubai/",
     "https://octane.rent/rent-aston-martin-dubai/",
-    "https://octane.rent/maserati-rental-dubai/"
+    "https://octane.rent/maserati-rental-dubai/",
+    "https://octane.rent/rent-porsche-911-carrera-dubai/"
   ],
   "episodes": [
     {
@@ -1321,6 +1322,27 @@
       "pub_date": "Wed, 18 Nov 2026 16:42:54 +0000",
       "duration_sec": 295,
       "bytes": 4722146
+    },
+    {
+      "file": "2026-11-19-rent-porsche-911-carrera-in-dubai.mp3",
+      "video": "2026-11-19-rent-porsche-911-carrera-in-dubai.mp4",
+      "srt": "2026-11-19-rent-porsche-911-carrera-in-dubai.srt",
+      "title": "First Drive: Porsche 911 Carrera in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche 911 Carrera in Dubai: https://octane.rent/rent-porsche-911-carrera-dubai/",
+      "youtube_title": "Review of Porsche 911 Carrera rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/S9e-mL_xztc",
+      "plan": {
+        "story": "first-time-dubai",
+        "guest": "uk-solo",
+        "expert_topic": "insurance",
+        "segment": "place-of-week",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-porsche-911-carrera-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2024/11/porsche_911_carrera_red_01.jpg",
+      "pub_date": "Thu, 19 Nov 2026 16:45:39 +0000",
+      "duration_sec": 280,
+      "bytes": 4482146
     }
   ]
 }
