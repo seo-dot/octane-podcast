@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 15:34:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 15:35:09 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Porsche Panamera: A Dubai Drive Story</title>
+      <link>https://octane.rent/rent-porsche-panamera-in-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Porsche Panamera in Dubai: https://octane.rent/rent-porsche-panamera-in-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-22-rent-porsche-panamera-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-22-rent-porsche-panamera-in-dubai.mp3" length="5363042" type="audio/mpeg"/>
+      <pubDate>Sun, 22 Nov 2026 15:35:09 +0000</pubDate>
+      <itunes:duration>05:35</itunes:duration>
+    </item>
     <item>
       <title>Porsche Cayman Dream Day in Dubai</title>
       <link>https://octane.rent/rent-porsche-cayman-dubai/</link>

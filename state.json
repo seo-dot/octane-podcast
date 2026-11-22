@@ -62,7 +62,8 @@
     "https://octane.rent/maserati-rental-dubai/",
     "https://octane.rent/rent-porsche-911-carrera-dubai/",
     "https://octane.rent/rent-porsche-macan-dubai/",
-    "https://octane.rent/rent-porsche-cayman-dubai/"
+    "https://octane.rent/rent-porsche-cayman-dubai/",
+    "https://octane.rent/rent-porsche-panamera-in-dubai/"
   ],
   "episodes": [
     {
@@ -1387,6 +1388,27 @@
       "pub_date": "Sat, 21 Nov 2026 15:34:40 +0000",
       "duration_sec": 249,
       "bytes": 3986402
+    },
+    {
+      "file": "2026-11-22-rent-porsche-panamera-in-dubai.mp3",
+      "video": "2026-11-22-rent-porsche-panamera-in-dubai.mp4",
+      "srt": "2026-11-22-rent-porsche-panamera-in-dubai.srt",
+      "title": "Porsche Panamera: A Dubai Drive Story",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche Panamera in Dubai: https://octane.rent/rent-porsche-panamera-in-dubai/",
+      "youtube_title": "Review of Porsche Panamera rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/u28Q2PE45RM",
+      "plan": {
+        "story": "road-trip",
+        "guest": "saudi-local",
+        "expert_topic": "prohibited",
+        "segment": "car-duel",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-porsche-panamera-in-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/05/porsche-panamera-gts-front.jpg",
+      "pub_date": "Sun, 22 Nov 2026 15:35:09 +0000",
+      "duration_sec": 335,
+      "bytes": 5363042
     }
   ]
 }
