@@ -63,7 +63,8 @@
     "https://octane.rent/rent-porsche-911-carrera-dubai/",
     "https://octane.rent/rent-porsche-macan-dubai/",
     "https://octane.rent/rent-porsche-cayman-dubai/",
-    "https://octane.rent/rent-porsche-panamera-in-dubai/"
+    "https://octane.rent/rent-porsche-panamera-in-dubai/",
+    "https://octane.rent/rent-porsche-cayenne-dubai/"
   ],
   "episodes": [
     {
@@ -1409,6 +1410,27 @@
       "pub_date": "Sun, 22 Nov 2026 15:35:09 +0000",
       "duration_sec": 335,
       "bytes": 5363042
+    },
+    {
+      "file": "2026-11-23-rent-porsche-cayenne-in-dubai.mp3",
+      "video": "2026-11-23-rent-porsche-cayenne-in-dubai.mp4",
+      "srt": "2026-11-23-rent-porsche-cayenne-in-dubai.srt",
+      "title": "Porsche Cayenne Birthday Adventure in Dubai",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche Cayenne in Dubai: https://octane.rent/rent-porsche-cayenne-dubai/",
+      "youtube_title": "Review of Porsche Cayenne rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/k-dGsgHyDF0",
+      "plan": {
+        "story": "special-occasion",
+        "guest": "american-creator",
+        "expert_topic": "deposit",
+        "segment": "place-of-week",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/rent-porsche-cayenne-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Porsche-cayenne-white-header.jpg",
+      "pub_date": "Mon, 23 Nov 2026 19:30:56 +0000",
+      "duration_sec": 334,
+      "bytes": 5352674
     }
   ]
 }
