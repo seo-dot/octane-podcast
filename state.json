@@ -64,7 +64,8 @@
     "https://octane.rent/rent-porsche-macan-dubai/",
     "https://octane.rent/rent-porsche-cayman-dubai/",
     "https://octane.rent/rent-porsche-panamera-in-dubai/",
-    "https://octane.rent/rent-porsche-cayenne-dubai/"
+    "https://octane.rent/rent-porsche-cayenne-dubai/",
+    "https://octane.rent/porsche-rental-dubai/"
   ],
   "episodes": [
     {
@@ -1431,6 +1432,27 @@
       "pub_date": "Mon, 23 Nov 2026 19:30:56 +0000",
       "duration_sec": 334,
       "bytes": 5352674
+    },
+    {
+      "file": "2026-11-24-rent-porsche-in-dubai.mp3",
+      "video": "2026-11-24-rent-porsche-in-dubai.mp4",
+      "srt": "2026-11-24-rent-porsche-in-dubai.srt",
+      "title": "Porsche in Dubai: Business & Romance",
+      "description": "Octane Drive Stories: a guest's experience with the Porsche in Dubai: https://octane.rent/porsche-rental-dubai/",
+      "youtube_title": "Review of Porsche rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/8gEoF4aZbGU",
+      "plan": {
+        "story": "business-flex",
+        "guest": "french-couple",
+        "expert_topic": "documents",
+        "segment": "rental-lifehack",
+        "giveaway": false
+      },
+      "source_url": "https://octane.rent/porsche-rental-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2022/10/Porsche.jpg",
+      "pub_date": "Tue, 24 Nov 2026 19:04:49 +0000",
+      "duration_sec": 350,
+      "bytes": 5610722
     }
   ]
 }
