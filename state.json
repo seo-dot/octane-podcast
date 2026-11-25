@@ -65,7 +65,8 @@
     "https://octane.rent/rent-porsche-cayman-dubai/",
     "https://octane.rent/rent-porsche-panamera-in-dubai/",
     "https://octane.rent/rent-porsche-cayenne-dubai/",
-    "https://octane.rent/porsche-rental-dubai/"
+    "https://octane.rent/porsche-rental-dubai/",
+    "https://octane.rent/rent-mercedes-e-dubai/"
   ],
   "episodes": [
     {
@@ -1453,6 +1454,27 @@
       "pub_date": "Tue, 24 Nov 2026 19:04:49 +0000",
       "duration_sec": 350,
       "bytes": 5610722
+    },
+    {
+      "file": "2026-11-25-rent-mercedes-e-class-in-dubai.mp3",
+      "video": "2026-11-25-rent-mercedes-e-class-in-dubai.mp4",
+      "srt": "2026-11-25-rent-mercedes-e-class-in-dubai.srt",
+      "title": "Mercedes E-Class: A Creator's Lens",
+      "description": "Octane Drive Stories: a guest's experience with the Mercedes E-Class in Dubai: https://octane.rent/rent-mercedes-e-dubai/",
+      "youtube_title": "Review of Mercedes E-Class rental in Dubai with Octane Rent",
+      "youtube_url": "https://youtu.be/GnlF3kscIp0",
+      "plan": {
+        "story": "content-shoot",
+        "guest": "russian-solo",
+        "expert_topic": "age",
+        "segment": "weekend-route",
+        "giveaway": true
+      },
+      "source_url": "https://octane.rent/rent-mercedes-e-dubai/",
+      "image": "https://octane.rent/wp-content/uploads/2024/08/mercedes-benz-e-class-red-3.jpg",
+      "pub_date": "Wed, 25 Nov 2026 20:38:51 +0000",
+      "duration_sec": 339,
+      "bytes": 5428706
     }
   ]
 }
