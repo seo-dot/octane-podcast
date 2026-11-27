@@ -13,7 +13,7 @@
       <link>https://seo-dot.github.io/octane-podcast/feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 17:57:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 17:42:18 +0000</lastBuildDate>
     <itunes:author>Octane Rent</itunes:author>
     <itunes:category text="Leisure"/>
     <itunes:image href="https://seo-dot.github.io/octane-podcast/assets/cover.jpg"/>
@@ -23,6 +23,15 @@
       <itunes:email>seo@mbear.ae</itunes:email>
     </itunes:owner>
     <itunes:summary>Daily reviews and real rental experiences with Octane Rent — luxury, sports and exotic cars in Dubai, Abu Dhabi, Sharjah and Miami. Book at https://octane.rent</itunes:summary>
+    <item>
+      <title>Weekend Escape in a Mercedes C-Class</title>
+      <link>https://octane.rent/rent-mercedes-c-class-dubai/</link>
+      <description>Octane Drive Stories: a guest's experience with the Mercedes C-Class in Dubai: https://octane.rent/rent-mercedes-c-class-dubai/</description>
+      <guid isPermaLink="false">https://seo-dot.github.io/octane-podcast/episodes/2026-11-27-rent-mercedes-c-class-in-dubai.mp3</guid>
+      <enclosure url="https://seo-dot.github.io/octane-podcast/episodes/2026-11-27-rent-mercedes-c-class-in-dubai.mp3" length="6618338" type="audio/mpeg"/>
+      <pubDate>Fri, 27 Nov 2026 17:42:18 +0000</pubDate>
+      <itunes:duration>06:53</itunes:duration>
+    </item>
     <item>
       <title>First Time in Dubai: A Mercedes V-Class Adventure</title>
       <link>https://octane.rent/rent-mercedes-v-class-dubai/</link>
